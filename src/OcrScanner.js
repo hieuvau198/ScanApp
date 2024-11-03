@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Tesseract from 'tesseract.js';
 import Webcam from 'react-webcam';
-
+//duc global
 const OcrScanner = () => {
   const [image, setImage] = useState(null);  // For holding uploaded or captured image
   const [text, setText] = useState('');      // To store extracted text
