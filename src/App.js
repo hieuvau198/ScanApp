@@ -8,7 +8,7 @@ function App() {
 
 
       <OcrScanner />
-      //asfasjfsafsaksajknsa
+
     </div>
   );
 }

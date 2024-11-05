@@ -4,6 +4,7 @@ const DataAnalyst = ({ extractedText }) => {
   const [shipper, setShipper] = useState('');
   const [consignee, setConsignee] = useState('');
   const [notifyParty, setNotifyParty] = useState('');
+  const [grossWeight, setGrossWeight] = useState('');
 
   useEffect(() => {
     extractData();
@@ -21,6 +22,12 @@ const DataAnalyst = ({ extractedText }) => {
     // Extract Notify Party
     const notifyPartyMatch = extractedText.match(/Notify party:\s*([\s\S]*?)(?=\s*PENANSHIN|Country)/);
     setNotifyParty(notifyPartyMatch ? notifyPartyMatch[1].trim() : 'Notify party data not found.');
+
+    // Extract Gross weight
+    const grossWeightMatch = extractedText.match(/Gross weight\s*([\s\S]*?)(?=\s*kgs|\s*kg|\s*lbs|\s*Net weight|$)/i);
+
+    setGrossWeight(grossWeightMatch ? grossWeightMatch[1].trim() : 'Gross weight data not found.');
+
   };
 
   return (
@@ -37,6 +44,10 @@ const DataAnalyst = ({ extractedText }) => {
       <div>
         <strong>Notify Party:</strong>
         <pre>{notifyParty}</pre>
+      </div>
+      <div>
+        <strong>Gross Weight:</strong>
+        <pre>{grossWeight}</pre>
       </div>
     </div>
   );
