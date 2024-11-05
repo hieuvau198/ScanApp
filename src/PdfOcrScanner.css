@@ -1,0 +1,17 @@
+.extracted-container {
+    display: flex;
+    justify-content: center;
+}
+.extracted-text {
+    white-space: pre-wrap; /* Preserve spaces and line breaks */
+    max-width: 800px; /* Limit the width for better readability */
+    margin: 20px 0; /* Add some margin for spacing */
+    padding: 10px; /* Add some padding for a cleaner look */
+    border: 1px solid #ccc; /* Optional: add a border around the text */
+    border-radius: 5px; /* Optional: rounded corners */
+    background-color: #f9f9f9; /* Optional: light background color */
+    font-family: monospace; /* Use a monospace font for better formatting */
+    overflow-x: auto; /* Allow horizontal scrolling if text is too wide */
+    
+  }
+  
