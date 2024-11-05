@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
-import './PdfOcrScanner.css'; // Import CSS file
+import './PdfOcrScanner.css';
+import DataAnalyst from './DataAnalyst';
 
 const PdfOcrScanner = () => {
   const [pdfFile, setPdfFile] = useState(null);
@@ -26,18 +27,15 @@ const PdfOcrScanner = () => {
         const page = await pdf.getPage(pageNum);
         const content = await page.getTextContent();
 
-        // Create an array to store lines of text for this page
         const lines = [];
         for (const item of content.items) {
-          // Push each item's text into lines array
           lines.push(item.str);
         }
 
-        // Join lines with newlines to create a structured output
-        text += lines.join(' ') + '\n\n'; // Add two new lines between pages for separation
+        text += lines.join(' ') + '\n\n';
       }
 
-      setExtractedText(text);  // Store the extracted text in state
+      setExtractedText(text); // Store the extracted text in state
       setLoading(false);
     };
 
@@ -55,12 +53,12 @@ const PdfOcrScanner = () => {
       <input type="file" accept="application/pdf" onChange={handleFileChange} />
       {loading && <p>Loading...</p>}
       {extractedText && (
-        <div >
+        <div>
           <h3>Extracted Text:</h3>
-          <div className='extracted-container'>
-          <pre className="extracted-text">{extractedText}</pre> {/* Use CSS class for styling */}
+          <div className="extracted-container">
+            <pre className="extracted-text">{extractedText}</pre>
           </div>
-          
+          <DataAnalyst extractedText={extractedText} /> {/* Pass extracted text */}
         </div>
       )}
       <div ref={pdfContainerRef}></div>
