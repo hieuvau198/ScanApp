@@ -8,6 +8,13 @@ const DataAnalyst = ({ extractedText }) => {
   const [grossWeightUnit, setGrossWeightUnit] = useState('');
   const [portOfLoading, setPortOfLoading] = useState('');
   const [placeOfDelivery, setPlaceOfDelivery] = useState('');
+  const [cbmVolume, setCbmVolume] = useState('');
+  const [billOfLadingNo, setBillOfLadingNo] = useState('');
+  const [placeAndDateOfIssue, setPlaceAndDateOfIssue] = useState('');
+  const [containerAndSealNoMatch, setContainerAndSealNo] = useState('');
+  const [containerNo, setContainerNo] = useState('');
+  const [sealNo, setSealNo] = useState('');
+  const [totalCartons, setTotalCartons] = useState('');
 
   useEffect(() => {
     extractData();
@@ -39,6 +46,36 @@ const DataAnalyst = ({ extractedText }) => {
     // Extract Place of Delivery
     const placeOfDeliveryMatch = extractedText.match(/Place of Delivery\s+([^\n\r]+?)(?=\s+(Consignor\/Shipper|Contents, weight)|[\n\r])/i);
     setPlaceOfDelivery(placeOfDeliveryMatch ? placeOfDeliveryMatch[1].trim() : 'Place of Delivery data not found.');
+
+    // Extract CBM/Volume
+    const cbmVolumeMatch = extractedText.match(/CBM\/\s*Volume\s+([\d.,]+\s*\w+)/i);
+    setCbmVolume(cbmVolumeMatch ? cbmVolumeMatch[1].trim() : 'CBM/Volume data not found.');
+
+    // Extract Bill of Lading No.
+    const billOfLadingNoMatch = extractedText.match(/Bill of Lading No\.\s+([A-Z0-9]+)/i);
+    setBillOfLadingNo(billOfLadingNoMatch ? billOfLadingNoMatch[1].trim() : 'Bill of Lading No. data not found.');
+
+    // Trích xuất Place and Date of Issue
+    const placeAndDateOfIssueMatch = extractedText.match(/Place and Date of Issue\s+([^\n\r]+?)(?=\s+Freight Payable At|$)/i);
+    setPlaceAndDateOfIssue(placeAndDateOfIssueMatch ? placeAndDateOfIssueMatch[1].trim() : 'Place and Date of Issue data not found.');
+
+    // Sử dụng regex để tìm container và seal number
+    const containerAndSealNoMatch = extractedText.match(/CONTAINER & SEAL NO\:\s+([A-Za-z0-9]+)\/([A-Za-z0-9]+)/i);
+
+    if (containerAndSealNoMatch) {
+      const containerNo = containerAndSealNoMatch[1].trim(); // Mã container
+      const sealNo = containerAndSealNoMatch[2].trim(); // Mã seal
+      setContainerNo(containerNo);  // Cập nhật state containerNo
+      setSealNo(sealNo);            // Cập nhật state sealNo
+    } else {
+      setContainerNo('Container No. data not found.');
+      setSealNo('Seal No. data not found.');
+    }
+    const totalCartonsMatch = extractedText.match(/Total\:\s+([A-Za-z0-9\s\(\)]+CARTON ONLY)/i);
+
+    // Trích xuất kết quả và cập nhật state
+    setTotalCartons(totalCartonsMatch ? totalCartonsMatch[1].trim() : '');
+
 
   };
 
@@ -72,6 +109,28 @@ const DataAnalyst = ({ extractedText }) => {
       <div>
         <strong>Place of Delivery:</strong>
         <pre>{placeOfDelivery}</pre>
+      </div>
+      <div>
+        <strong>CBM/Volume:</strong>
+        <pre>{cbmVolume}</pre>
+      </div>
+      <div>
+        <h3>Bill of Lading No.</h3>
+        <div>{billOfLadingNo}</div>
+      </div>
+      <div>
+        <div>
+          <strong>Place and Date of Issue:</strong>
+          <pre>{placeAndDateOfIssue}</pre>
+        </div>
+      </div>
+      <div>
+        <h3>CONTAINER & SEAL NO:</h3>
+        <p>Container No: {containerNo}</p>
+        <p>Seal No: {sealNo}</p>
+      </div>
+      <div>
+        <p>Total Cartons: {totalCartons}</p>
       </div>
     </div>
   );
