@@ -5,6 +5,9 @@ const DataAnalyst = ({ extractedText }) => {
   const [consignee, setConsignee] = useState('');
   const [notifyParty, setNotifyParty] = useState('');
   const [grossWeight, setGrossWeight] = useState('');
+  const [grossWeightUnit, setGrossWeightUnit] = useState('');
+  const [portOfLoading, setPortOfLoading] = useState('');
+  const [placeOfDelivery, setPlaceOfDelivery] = useState('');
 
   useEffect(() => {
     extractData();
@@ -24,9 +27,18 @@ const DataAnalyst = ({ extractedText }) => {
     setNotifyParty(notifyPartyMatch ? notifyPartyMatch[1].trim() : 'Notify party data not found.');
 
     // Extract Gross weight
-    const grossWeightMatch = extractedText.match(/Gross weight\s*([\s\S]*?)(?=\s*kgs|\s*kg|\s*lbs|\s*Net weight|$)/i);
+    const grossWeightMatch = extractedText.match(/Gross weight\s*([\d.,]+)\s*(kgs|kg|lbs)/i);
 
     setGrossWeight(grossWeightMatch ? grossWeightMatch[1].trim() : 'Gross weight data not found.');
+    setGrossWeightUnit(grossWeightMatch ? grossWeightMatch[2].trim() : '');
+
+    // Extract Port of Loading
+    const portOfLoadingMatch = extractedText.match(/Port of Loading\s*([\s\S]*?)(?=\s*Port of Discharge|$)/i);
+    setPortOfLoading(portOfLoadingMatch ? portOfLoadingMatch[1].trim() : 'Port of Loading data not found.');
+
+    // Extract Place of Delivery
+    const placeOfDeliveryMatch = extractedText.match(/Place of Delivery\s+([^\n\r]+?)(?=\s+(Consignor\/Shipper|Contents, weight)|[\n\r])/i);
+    setPlaceOfDelivery(placeOfDeliveryMatch ? placeOfDeliveryMatch[1].trim() : 'Place of Delivery data not found.');
 
   };
 
@@ -48,6 +60,18 @@ const DataAnalyst = ({ extractedText }) => {
       <div>
         <strong>Gross Weight:</strong>
         <pre>{grossWeight}</pre>
+      </div>
+      <div>
+        <strong>Unit:</strong>
+        <pre>{grossWeightUnit}</pre>
+      </div>
+      <div>
+        <strong>Port of Loading:</strong>
+        <pre>{portOfLoading}</pre>
+      </div>
+      <div>
+        <strong>Place of Delivery:</strong>
+        <pre>{placeOfDelivery}</pre>
       </div>
     </div>
   );
