@@ -5,11 +5,10 @@ import OcrScanner from './OcrScanner';
 function App() {
   return (
     <div className="App">
-      
-        
-        <OcrScanner />
-      
-      
+
+
+      <OcrScanner />
+
     </div>
   );
 }
