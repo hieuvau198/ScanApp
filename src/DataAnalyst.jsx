@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import ExportToExcel from './ExportToExcel';
 
 const DataAnalyst = ({ extractedText }) => {
   const [shipper, setShipper] = useState('');
@@ -14,7 +15,10 @@ const DataAnalyst = ({ extractedText }) => {
   const [containerAndSealNoMatch, setContainerAndSealNo] = useState('');
   const [containerNo, setContainerNo] = useState('');
   const [sealNo, setSealNo] = useState('');
-  const [totalCartons, setTotalCartons] = useState('');
+  const [numberOfPackages, setNumberOfPackages] = useState('');
+  const [kindOfPackages, setKindOfPackages] = useState('');
+  const [portOfDischarge, setPortOfDischarge] = useState('not found');
+  const [partOfDryContainerSTC, setPartOfDryContainerSTC] = useState('');
 
   useEffect(() => {
     extractData();
@@ -71,10 +75,15 @@ const DataAnalyst = ({ extractedText }) => {
       setContainerNo('Container No. data not found.');
       setSealNo('Seal No. data not found.');
     }
-    const totalCartonsMatch = extractedText.match(/Total\:\s+([A-Za-z0-9\s\(\)]+CARTON ONLY)/i);
-
-    // Trích xuất kết quả và cập nhật state
-    setTotalCartons(totalCartonsMatch ? totalCartonsMatch[1].trim() : '');
+    const totalMatch = extractedText.match(/Total\:\s+([A-Za-z0-9\s\(\)]+)\s+([A-Z\s]+ONLY)/i);
+    if (totalMatch) {
+      setNumberOfPackages(totalMatch[1].trim());  // ONE (1)
+      setKindOfPackages(totalMatch[2].trim());    // CARTON ONLY
+    }
+    const portOfDischargeMatch = extractedText.match(/Port of Discharge\s+([^\n\r]+?)(?=\s+(Place of Delivery)|[\n\r])/i);
+    setPortOfDischarge(portOfDischargeMatch ? portOfDischargeMatch[1].trim() : 'not found');
+    const partOfDryContainerSTCMatch = extractedText.match(/PART OF DRY CONTAINER STC\s+([^\n\r]+?)(?=\s+(FREIGHT PREPAID)|[\n\r])/i);
+    setPartOfDryContainerSTC(partOfDryContainerSTCMatch ? partOfDryContainerSTCMatch[0].trim() : 'Data not found.');
 
 
   };
@@ -82,7 +91,26 @@ const DataAnalyst = ({ extractedText }) => {
   return (
     <div className="analysed-data-box">
       <h3>Analysed Data</h3>
-      <div>
+      <ExportToExcel
+        shipper={shipper}
+        consignee={consignee}
+        notifyParty={notifyParty}
+        grossWeight={grossWeight}
+        grossWeightUnit={grossWeightUnit}
+        portOfLoading={portOfLoading}
+        placeOfDelivery={placeOfDelivery}
+        cbmVolume={cbmVolume}
+        billOfLadingNo={billOfLadingNo}
+        placeAndDateOfIssue={placeAndDateOfIssue}
+        containerAndSealNoMatch={containerAndSealNoMatch}
+        containerNo={containerNo}
+        sealNo={sealNo}
+        numberOfPackages={numberOfPackages}
+        kindOfPackages={kindOfPackages}
+        portOfDischarge={portOfDischarge}
+        partOfDryContainerSTC={partOfDryContainerSTC}
+      />
+      {/* <div>
         <strong>Shipper:</strong>
         <pre>{shipper}</pre>
       </div>
@@ -130,9 +158,18 @@ const DataAnalyst = ({ extractedText }) => {
         <p>Seal No: {sealNo}</p>
       </div>
       <div>
-        <p>Total Cartons: {totalCartons}</p>
+        <p>Number of Packages: {numberOfPackages}</p>
+        <p>Kind of Packages: {kindOfPackages}</p>
       </div>
+      <div>
+        <h3>Port of Discharge:</h3>
+        <pre>{portOfDischarge}</pre>
+      </div>
+      <div>
+        <p>Part of Dry Container STC: {partOfDryContainerSTC}</p>
+      </div> */}
     </div>
+
   );
 };
 
