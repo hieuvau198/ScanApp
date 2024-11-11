@@ -18,22 +18,14 @@ const OcrScanner = () => {
   return (
     <div className="ocr-scanner">
       <ParticlesBackground />
-      <h1 className="ocr-title">Document Scanner</h1>
+      <h1 className="ocr-title">Bill Of Lading Scanner</h1>
       <select onChange={(e) => setLanguage(e.target.value)} value={language} className="ocr-select">
         <option value="eng">English</option>
-        <option value="vie">Vietnamese</option>
+        <option value="vie">Vietnamese (not developed yet)</option>
       </select>
 
       <div className="input-type-selector">
-        <label>
-          <input
-            type="radio"
-            value="image"
-            checked={inputType === 'image'}
-            onChange={() => setInputType('image')}
-          />
-          Image
-        </label>
+        
         <label>
           <input
             type="radio"

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import ExportToExcelWithTemplate from './ExportToExcel';
+import ExportToExcel from './ExportToExcel';
 
 const DataAnalyst = ({ extractedText }) => {
   const [shipper, setShipper] = useState('');
@@ -91,7 +91,7 @@ const DataAnalyst = ({ extractedText }) => {
   return (
     <div className="analysed-data-box">
       <h3>Analysed Data</h3>
-      <ExportToExcelWithTemplate
+      <ExportToExcel
         shipper={shipper}
         consignee={consignee}
         notifyParty={notifyParty}

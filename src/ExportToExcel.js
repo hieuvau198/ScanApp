@@ -1,7 +1,8 @@
 import React from "react";
-import * as XLSX from "xlsx";
+import ExcelJS from "exceljs";
+import { saveAs } from "file-saver";
 
-const ExportToExcelWithTemplate = ({
+const ExportToExcel = ({
   shipper,
   consignee,
   notifyParty,
@@ -12,7 +13,6 @@ const ExportToExcelWithTemplate = ({
   cbmVolume,
   billOfLadingNo,
   placeAndDateOfIssue,
-  containerAndSealNoMatch,
   containerNo,
   sealNo,
   numberOfPackages,
@@ -22,52 +22,68 @@ const ExportToExcelWithTemplate = ({
 }) => {
   const handleExport = async () => {
     try {
-      // Load the template file
-      const response = await fetch('src\static\Book1.xlsx');
+      // Load the workbook
+      const response = await fetch("/assets/template2.xlsx");
       const arrayBuffer = await response.arrayBuffer();
-      const workbook = XLSX.read(arrayBuffer, { type: 'array' });
+      const workbook = new ExcelJS.Workbook();
+      await workbook.xlsx.load(arrayBuffer);
 
-      // Access the first worksheet (modify if needed for your file)
-      const worksheet = workbook.Sheets[workbook.SheetNames[0]];
+      const worksheet = workbook.getWorksheet(1); // Access the first sheet
 
-      // Set values in the cells that you need to update
-      // Example cell updates (update based on your template's cell references):
+      portOfDischarge = transformPort(portOfDischarge);
+      portOfLoading = transformPort(portOfLoading);
 
-      // STT, NO
-      // SO HO SO, DOCUMENT NO,
-      // NAM DANG KY HO SO, DOCUMENT YEAR
-      // CHUC NANG CUA CHUNG TU, DOCUMENT FUNCTION
+      // Apply data to specific cells
+      worksheet.getCell("E4").value = shipper;
+      worksheet.getCell("F4").value = consignee;
+      worksheet.getCell("G4").value = notifyParty;
+      worksheet.getCell("J4").value = portOfDischarge;  // final destination
+      worksheet.getCell("K4").value = portOfLoading;    
+      worksheet.getCell("L4").value = portOfDischarge;
+      worksheet.getCell("M4").value = placeOfDelivery;
+      worksheet.getCell("O4").value = billOfLadingNo;
+      worksheet.getCell("P4").value = placeAndDateOfIssue;  //Date of house bill of lading
+      worksheet.getCell("T4").value = numberOfPackages;
+      worksheet.getCell("U4").value = kindOfPackages;
+      worksheet.getCell("V4").value = grossWeight;
+      worksheet.getCell("W4").value = grossWeightUnit;
+      worksheet.getCell("C7").value = partOfDryContainerSTC;
+      worksheet.getCell("E7").value = cbmVolume;
+      worksheet.getCell("F7").value = containerNo;
+      worksheet.getCell("G7").value = sealNo;
+      
+      
+      worksheet.getCell("L4").value = portOfDischarge;
+      
 
-      worksheet["E4"] = { v: shipper }; // Modify cell A2 for "Shipper"
-      worksheet["F4"] = { v: consignee }; // Modify cell B2 for "Consignee"
-      worksheet["G4"] = { v: notifyParty }; // Modify cell C2 for "Notify Party"
-      // Code of Port of transhipment/transit
-      // final destination
-      worksheet["J4"] = { v: portOfDischarge };
-      worksheet["V4"] = { v: grossWeight };
-      worksheet["W4"] = { v: grossWeightUnit };
-      worksheet["J4"] = { v: portOfLoading };
-      worksheet["M4"] = { v: placeOfDelivery };
-      worksheet["E7"] = { v: cbmVolume };
-      worksheet["O4"] = { v: billOfLadingNo };
-      worksheet["P4"] = { v: placeAndDateOfIssue };
+      // Export the updated workbook
+      const buffer = await workbook.xlsx.writeBuffer();
+      const blob = new Blob([buffer], { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" });
+      saveAs(blob, "UpdatedData.xlsx");
 
-      worksheet["F7"] = { v: containerNo };
-      worksheet["G7"] = { v: sealNo };
-      worksheet["T4"] = { v: numberOfPackages };
-      worksheet["U4"] = { v: kindOfPackages };
-      worksheet["L4"] = { v: portOfDischarge };
-      worksheet["C7"] = { v: partOfDryContainerSTC };
-
-      // Export the modified workbook
-      XLSX.writeFile(workbook, "UpdatedData.xlsx");
       console.log("Excel file exported successfully.");
     } catch (error) {
       console.error("Error exporting Excel:", error);
     }
   };
 
+  const transformPort = (port) => {
+    const portUpper = port.toUpperCase();
+    if (portUpper.includes("HO CHI MINH") || portUpper.includes("HOCHIMINH") || portUpper.includes("VIETNAM") || portUpper.includes("VIET NAM")) {
+      return "VNCLI";
+    } else if (portUpper.includes("YOKOHAMA")) {
+      return "JPYOK";
+    } else if (portUpper.includes("CAI MEP")) {
+      return "VNCMT";
+    } else if (portUpper.includes("BANGKOK")) {
+      return "THBKK";
+    } else if (portUpper.includes("TAICHUNG")) {
+      return "TWTXG";
+    }
+    return port;
+  };
+
   return <button onClick={handleExport}>Export with Template</button>;
 };
 
-export default ExportToExcelWithTemplate;
+export default ExportToExcel;

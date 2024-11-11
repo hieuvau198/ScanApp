@@ -54,10 +54,7 @@ const PdfOcrScanner = () => {
       {loading && <p>Loading...</p>}
       {extractedText && (
         <div>
-          <h3>Extracted Text:</h3>
-          <div className="extracted-container">
-            <pre className="extracted-text">{extractedText}</pre>
-          </div>
+          
           <DataAnalyst extractedText={extractedText} /> {/* Pass extracted text */}
         </div>
       )}
