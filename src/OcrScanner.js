@@ -1,82 +1,62 @@
 // src/OcrScanner.js
 import React, { useState } from 'react';
-import Tesseract from 'tesseract.js';
-import Webcam from 'react-webcam';
-//duc global
+import ParticlesBackground from './ParticlesBackground';
+import ImageOcrScanner from './ImageOcrScanner';
+import PdfOcrScanner from './PdfOcrScanner';
+
 const OcrScanner = () => {
-  const [image, setImage] = useState(null);  // For holding uploaded or captured image
-  const [text, setText] = useState('');      // To store extracted text
-  const [loading, setLoading] = useState(false);  // For showing loading status
+  const [inputType, setInputType] = useState('pdf');
+  const [text, setText] = useState('');
+  const [language, setLanguage] = useState('eng');
 
-  // For handling image upload
-  const handleImageUpload = (event) => {
-    const file = event.target.files[0];
-    setImage(URL.createObjectURL(file));  // Convert image file to URL for display
-  };
+  const API_KEY = 'K88680791888957';
 
-  // For handling text extraction using Tesseract
-  const handleExtractText = () => {
-    if (!image) return;
-    setLoading(true);
-    Tesseract.recognize(
-      image,
-      'eng',
-      { logger: (m) => console.log(m) }  // Logs the progress in console
-    ).then(({ data: { text } }) => {
-      setText(text);
-      setLoading(false);
-    });
-  };
-
-  // For capturing an image from webcam
-  const handleCapture = (webcamRef) => {
-    const imageSrc = webcamRef.current.getScreenshot();
-    setImage(imageSrc);
+  const handleExtractedText = (extractedText) => {
+    setText(extractedText);
   };
 
   return (
-    <div>
-      <h1>Image to Text Scanner</h1>
+    <div className="ocr-scanner">
+      <ParticlesBackground />
+      <h1 className="ocr-title">Document Scanner</h1>
+      <select onChange={(e) => setLanguage(e.target.value)} value={language} className="ocr-select">
+        <option value="eng">English</option>
+        <option value="vie">Vietnamese</option>
+      </select>
 
-      {/* Image Upload */}
-      <input type="file" accept="image/*" onChange={handleImageUpload} />
+      <div className="input-type-selector">
+        <label>
+          <input
+            type="radio"
+            value="image"
+            checked={inputType === 'image'}
+            onChange={() => setInputType('image')}
+          />
+          Image
+        </label>
+        <label>
+          <input
+            type="radio"
+            value="pdf"
+            checked={inputType === 'pdf'}
+            onChange={() => setInputType('pdf')}
+          />
+          PDF
+        </label>
+      </div>
 
-      {/* Camera Capture */}
-      <WebcamCapture onCapture={handleCapture} />
+      {inputType === 'image' ? (
+        <ImageOcrScanner onExtractedText={handleExtractedText} API_KEY={API_KEY} language={language} />
+      ) : (
+        <PdfOcrScanner onExtractedText={handleExtractedText} API_KEY={API_KEY} language={language} />
+      )}
 
-      {/* Display selected image */}
-      {image && <img src={image} alt="Captured or Uploaded" style={{ maxWidth: '100%', height: 'auto' }} />}
-
-      {/* Button to start OCR */}
-      <button onClick={handleExtractText} disabled={!image || loading}>
-        {loading ? 'Extracting Text...' : 'Extract Text'}
-      </button>
-
-      {/* Display extracted text */}
       {text && (
-        <div>
+        <div className="ocr-result">
           <h3>Extracted Text:</h3>
           <p>{text}</p>
         </div>
       )}
-    </div>
-  );
-};
-
-// Subcomponent for Webcam capture
-const WebcamCapture = ({ onCapture }) => {
-  const webcamRef = React.useRef(null);
-
-  return (
-    <div>
-      <Webcam
-        audio={false}
-        ref={webcamRef}
-        screenshotFormat="image/jpeg"
-        width={320}
-        height={240}
-      />
-      <button onClick={() => onCapture(webcamRef)}>Capture from Camera</button>
     </div>
   );
 };

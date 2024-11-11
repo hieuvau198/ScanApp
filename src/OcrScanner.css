@@ -1,0 +1,104 @@
+/* src/OcrScanner.css */
+
+.ocr-scanner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .ocr-title {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .ocr-select, .ocr-upload, .ocr-button {
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .ocr-select {
+    width: 200px;
+  }
+  
+  .ocr-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .ocr-preview {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ocr-button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .ocr-button:hover {
+    background-color: #45a049;
+  }
+  
+  .ocr-result {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  .ocr-result h3 {
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .ocr-result p {
+    color: #666;
+    font-size: 1em;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  .webcam-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .webcam {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 600px) {
+    .ocr-title {
+      font-size: 1.5em;
+    }
+    
+    .ocr-select, .ocr-upload, .ocr-button {
+      width: 100%;
+      font-size: 1em;
+    }
+    
+    .ocr-preview {
+      max-width: 90%;
+    }
+  }
+  
