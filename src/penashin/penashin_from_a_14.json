@@ -1,0 +1,185 @@
+{
+    "data": [
+        {
+            "context": "Consignor/Shipper: GREAT WAY LOGISTICS CO., LTD 50 A3 NGUYEN THI MINH KHAI STREET, DISTRICT 5, HO CHI MINH CITY, VIETNAM. TEL: (84)- 28-7654.4321 FAX: (84)- 28-7654.4322 Forwarders Ref. Customs Reference/Status Shippers Reference Bill of Lading No. HCMBKK847562023 Consigned to Order of: KOMODO LOGISTICS CO., LTD 11 JALAN MANGGA, SURABAYA, 60232, INDONESIA Notify party: SAME AS CONSIGNEE VIETNAM SHIPPING SOLUTIONS CO., LTD Country: Vietnam Port: HOCHIMINH Tel: +84 28 22334455 Fax: +84 28 22334456 Email: info@vietnamshipping.vn Booking Reference BKK84756 Addr: 75 TRAN HUNG DAO ST, WARD 3, DISTRICT 1, HO CHI MINH CITY, VIETNAM Place of Receipt HOCHIMINH CFS Vessel SEA CHALLENGER V.100 Place of Loading HOCHIMINH CFS Port of Discharge SURABAYA PORT Place of Delivery SURABAYA CFS BILL OF LADING Contents, weight, value, and measurement according to sender\u00e2\u20ac\u2122s declaration Number and Kind of Packages, Description of Goods Gross Weight CBM/ Volume PART OF DRY CONTAINER STC 22.400 kgs 1.500 CBM LCL/LCL SHIPPING MARKS: GREAT WAY EXPORTS FREIGHT PREPAID 1/2-2/2 INVOICE NO.: GWL-NST-055 CONTAINER & SEAL NO: CSLU2043210/21122334 (Original B/L Surrendered In HOCHIMINH CITY) According to declaration of the consignor. The goods and instructions are accepted and dealt with subject to the Company's Standard Conditions. Taken in charge in apparent good order and condition, unless otherwise noted herein, at the place of receipt for transport and delivery as mentioned above. Freight Amount Freight Payable At DESTINATION Place and Date of Issue HO CHI MINH, 30 SEP, 2023 Cargo Insurance through the undersigned Not covered: Yes/No Covered according to attached policy: Yes/No No. of Original B/Lading ZERO For delivery of goods please apply to: KOMODO LOGISTICS CO., LTD 21 MANGGA STREET, SURABAYA, 60232, INDONESIA TEL: (62) 31-9876543, FAX: (62) 31-9876544",
+            "qas": [
+                {
+                    "id": "00001",
+                    "question": "Who is the Shipper?",
+                    "answers": [
+                        {
+                            "text": "GREAT WAY LOGISTICS CO., LTD 50 A3 NGUYEN THI MINH KHAI STREET, DISTRICT 5, HO CHI MINH CITY, VIETNAM.",
+                            "answer_start": 19
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00002",
+                    "question": "Who is the Consignee?",
+                    "answers": [
+                        {
+                            "text": "KOMODO LOGISTICS CO., LTD 11 JALAN MANGGA, SURABAYA, 60232, INDONESIA",
+                            "answer_start": 288
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00003",
+                    "question": "Who is the Notify Party?",
+                    "answers": [
+                        {
+                            "text": "SAME AS CONSIGNEE",
+                            "answer_start": 372
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00004",
+                    "question": "What is the Gross Weight of the shipment?",
+                    "answers": [
+                        {
+                            "text": "22.400",
+                            "answer_start": 978
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00005",
+                    "question": "What is the unit of Gross Weight?",
+                    "answers": [
+                        {
+                            "text": "kgs",
+                            "answer_start": 985
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00006",
+                    "question": "What is the Port of Lading?",
+                    "answers": [
+                        {
+                            "text": "",
+                            "answer_start": 0
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00007",
+                    "question": "What is the Place of Delivery?",
+                    "answers": [
+                        {
+                            "text": "SURABAYA CFS",
+                            "answer_start": 772
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00008",
+                    "question": "What is the dimension or tonnage?",
+                    "answers": [
+                        {
+                            "text": "1.500 CBM",
+                            "answer_start": 989
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00009",
+                    "question": "What is the Bill of Lading Number?",
+                    "answers": [
+                        {
+                            "text": "HCMBKK847562023",
+                            "answer_start": 249
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00010",
+                    "question": "What is the Place and Date of Issue?",
+                    "answers": [
+                        {
+                            "text": "HO CHI MINH, 30 SEP, 2023",
+                            "answer_start": 1547
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00011",
+                    "question": "What is the Container Number?",
+                    "answers": [
+                        {
+                            "text": "CSLU2043210",
+                            "answer_start": 1111
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00012",
+                    "question": "What is the Seal Number?",
+                    "answers": [
+                        {
+                            "text": "21122334",
+                            "answer_start": 1123
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00013",
+                    "question": "What is the Number of Packages?",
+                    "answers": [
+                        {
+                            "text": "",
+                            "answer_start": 0
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00014",
+                    "question": "What is the Kind of Packages?",
+                    "answers": [
+                        {
+                            "text": "PART OF DRY CONTAINER STC",
+                            "answer_start": 952
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00015",
+                    "question": "What is the Port of Discharge?",
+                    "answers": [
+                        {
+                            "text": "SURABAYA PORT",
+                            "answer_start": 740
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00016",
+                    "question": "What is the Part of Dry Container STC?",
+                    "answers": [
+                        {
+                            "text": "",
+                            "answer_start": 0
+                        }
+                    ],
+                    "is_impossible": false
+                }
+            ]
+        }
+    ]
+}

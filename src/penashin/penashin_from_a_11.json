@@ -1,0 +1,185 @@
+{
+    "data": [
+        {
+            "context": "Consignor/Shipper: SUNRISE LOGISTICS CO., LTD 101 E1 NGUYEN TRUNG TRUC STREET, BAI SAO WARD, DISTRICT 7, HO CHI MINH CITY, VIETNAM. TEL: (84)- 28-4321.6789 FAX: (84)- 28-4321.6790 Forwarders Ref. Customs Reference/Status Shippers Reference Bill of Lading No. HCMSEA123432023 Consigned to Order of: PACIFIC SHIPPING CO., LTD 22-25 SEAWAY STREET, INCHON, 400-060, SOUTH KOREA Notify party: SAME AS CONSIGNEE OCEAN LOGISTICS CO., LTD Country: Vietnam Port: HOCHIMINH Tel: +84 28 98765432 Fax: +84 28 98765433 Email: info@oceanlogistics.vn Booking Reference SEA12345 Addr: 350 HOANG DIU STREET, WARD 14, DISTRICT 6, HO CHI MINH CITY, VIETNAM Place of Receipt HOCHIMINH CFS Vessel MARITIME PRIDE V.180 Place of Loading HOCHIMINH CFS Port of Discharge INCHEON PORT Place of Delivery INCHEON CFS BILL OF LADING Contents, weight, value, and measurement according to sender\u00e2\u20ac\u2122s declaration Number and Kind of Packages, Description of Goods Gross Weight CBM/ Volume PART OF DRY CONTAINER STC 40.120 kgs 2.000 CBM LCL/LCL SHIPPING MARKS: SUNRISE EXPORTS FREIGHT PREPAID 1/2-2/2 INVOICE NO.: SUN-NST-022 CONTAINER & SEAL NO: CSLU2076543/20987654 (Original B/L Surrendered In HOCHIMINH CITY) According to declaration of the consignor. The goods and instructions are accepted and dealt with subject to the Company's Standard Conditions. Taken in charge in apparent good order and condition, unless otherwise noted herein, at the place of receipt for transport and delivery as mentioned above. Freight Amount Freight Payable At DESTINATION Place and Date of Issue HO CHI MINH, 05 MAY, 2023 Cargo Insurance through the undersigned Not covered: Yes/No Covered according to attached policy: Yes/No No. of Original B/Lading ZERO For delivery of goods please apply to: PACIFIC SHIPPING CO., LTD 20-28 SEAWAY STREET, INCHON, 400-060, SOUTH KOREA TEL: (82) 32-9876543, FAX: (82) 32-9876544",
+            "qas": [
+                {
+                    "id": "00001",
+                    "question": "Who is the Shipper?",
+                    "answers": [
+                        {
+                            "text": "SUNRISE LOGISTICS CO., LTD 101 E1 NGUYEN TRUNG TRUC STREET, BAI SAO WARD, DISTRICT 7, HO CHI MINH CITY, VIETNAM.",
+                            "answer_start": 19
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00002",
+                    "question": "Who is the Consignee?",
+                    "answers": [
+                        {
+                            "text": "PACIFIC SHIPPING CO., LTD 22-25 SEAWAY STREET, INCHON, 400-060, SOUTH KOREA",
+                            "answer_start": 298
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00003",
+                    "question": "Who is the Notify Party?",
+                    "answers": [
+                        {
+                            "text": "SAME AS CONSIGNEE",
+                            "answer_start": 388
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00004",
+                    "question": "What is the Gross Weight of the shipment?",
+                    "answers": [
+                        {
+                            "text": "40.120",
+                            "answer_start": 982
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00005",
+                    "question": "What is the unit of Gross Weight?",
+                    "answers": [
+                        {
+                            "text": "kgs",
+                            "answer_start": 989
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00006",
+                    "question": "What is the Port of Lading?",
+                    "answers": [
+                        {
+                            "text": "",
+                            "answer_start": 0
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00007",
+                    "question": "What is the Place of Delivery?",
+                    "answers": [
+                        {
+                            "text": "INCHEON CFS",
+                            "answer_start": 777
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00008",
+                    "question": "What is the dimension or tonnage?",
+                    "answers": [
+                        {
+                            "text": "2.000 CBM",
+                            "answer_start": 993
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00009",
+                    "question": "What is the Bill of Lading Number?",
+                    "answers": [
+                        {
+                            "text": "HCMSEA123432023",
+                            "answer_start": 259
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00010",
+                    "question": "What is the Place and Date of Issue?",
+                    "answers": [
+                        {
+                            "text": "HO CHI MINH, 05 MAY, 2023",
+                            "answer_start": 1549
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00011",
+                    "question": "What is the Container Number?",
+                    "answers": [
+                        {
+                            "text": "CSLU2076543",
+                            "answer_start": 1113
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00012",
+                    "question": "What is the Seal Number?",
+                    "answers": [
+                        {
+                            "text": "20987654",
+                            "answer_start": 1125
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00013",
+                    "question": "What is the Number of Packages?",
+                    "answers": [
+                        {
+                            "text": "",
+                            "answer_start": 0
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00014",
+                    "question": "What is the Kind of Packages?",
+                    "answers": [
+                        {
+                            "text": "PART OF DRY CONTAINER STC",
+                            "answer_start": 956
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00015",
+                    "question": "What is the Port of Discharge?",
+                    "answers": [
+                        {
+                            "text": "INCHEON PORT",
+                            "answer_start": 746
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00016",
+                    "question": "What is the Part of Dry Container STC?",
+                    "answers": [
+                        {
+                            "text": "",
+                            "answer_start": 0
+                        }
+                    ],
+                    "is_impossible": false
+                }
+            ]
+        }
+    ]
+}

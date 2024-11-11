@@ -1,0 +1,185 @@
+{
+  "data": [
+    {
+      "context": "Consignor/Shipper: FAST TRACK LOGISTICS CO., LTD 130 B3 NGUYEN VAN CU STREET, DISTRICT 12, HO CHI MINH CITY, VIETNAM. TEL: (84)- 28-3210.1111 FAX: (84)- 28-3210.1112 Forwarders Ref. Customs Reference/Status Shippers Reference Bill of Lading No. HCMJKT124582023 Consigned to Order of: EAST ASIA CARGO CO., LTD 18 JALAN MERDEKA, JAKARTA 10120, INDONESIA Notify party: SAME AS CONSIGNEE SOUTH EAST ASIA SHIPPING CO., LTD Country: Vietnam Port: HO CHI MINH Tel: +84 28 22223344 Fax: +84 28 22223345 Email: support@seashipping.vn Booking Reference JKT12458 Addr: 25 NGO QUYEN STREET, WARD 7, DISTRICT 3, HO CHI MINH CITY, VIETNAM Place of Receipt HO CHI MINH CFS Vessel EAST WIND V.180 Place of Loading HO CHI MINH CFS Port of Discharge JAKARTA PORT Place of Delivery JAKARTA CFS BILL OF LADING Contents, weight, value, and measurement according to senderâ€™s declaration Number and Kind of Packages, Description of Goods Gross Weight CBM/ Volume PART OF DRY CONTAINER STC 12.500 kgs 0.750 CBM LCL/LCL SHIPPING MARKS: FAST TRACK EXPORTS FREIGHT PREPAID 1/2-2/2 INVOICE NO.: FTL-NST-033 CONTAINER & SEAL NO: CSLU2087654/22098765 (Original B/L Surrendered In HO CHI MINH CITY) According to declaration of the consignor. The goods and instructions are accepted and dealt with subject to the Company's Standard Conditions. Taken in charge in apparent good order and condition, unless otherwise noted herein, at the place of receipt for transport and delivery as mentioned above. Freight Amount Freight Payable At DESTINATION Place and Date of Issue HO CHI MINH, 25 NOV, 2023 Cargo Insurance through the undersigned Not covered: Yes/No Covered according to attached policy: Yes/No No. of Original B/Lading ZERO For delivery of goods please apply to: EAST ASIA CARGO CO., LTD 12 MERDEKA STREET, JAKARTA 10120, INDONESIA TEL: (62) 21-23456789, FAX: (62) 21-23456790",
+      "qas": [
+        {
+          "id": "00001",
+          "question": "Who is the Shipper?",
+          "answers": [
+            {
+              "text": "FAST TRACK LOGISTICS CO., LTD 130 B3 NGUYEN VAN CU STREET, DISTRICT 12, HO CHI MINH CITY, VIETNAM.",
+              "answer_start": 19
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00002",
+          "question": "Who is the Consignee?",
+          "answers": [
+            {
+              "text": "EAST ASIA CARGO CO., LTD 18 JALAN MERDEKA, JAKARTA 10120, INDONESIA",
+              "answer_start": 284
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00003",
+          "question": "Who is the Notify Party?",
+          "answers": [
+            {
+              "text": "SAME AS CONSIGNEE",
+              "answer_start": 366
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00004",
+          "question": "What is the Gross Weight of the shipment?",
+          "answers": [
+            {
+              "text": "12.500",
+              "answer_start": 968
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00005",
+          "question": "What is the unit of Gross Weight?",
+          "answers": [
+            {
+              "text": "kgs",
+              "answer_start": 975
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00006",
+          "question": "What is the Port of Loading?",
+          "answers": [
+            {
+              "text": "HO CHI MINH CFS",
+              "answer_start": 698
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00007",
+          "question": "What is the Place of Delivery?",
+          "answers": [
+            {
+              "text": "JAKARTA CFS",
+              "answer_start": 763
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00008",
+          "question": "What is the dimension or tonnage?",
+          "answers": [
+            {
+              "text": "0.750 CBM",
+              "answer_start": 979
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00009",
+          "question": "What is the Bill of Lading Number?",
+          "answers": [
+            {
+              "text": "HCMJKT124582023",
+              "answer_start": 245
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00010",
+          "question": "What is the Place and Date of Issue?",
+          "answers": [
+            {
+              "text": "HO CHI MINH, 25 NOV, 2023",
+              "answer_start": 1540
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00011",
+          "question": "What is the Container Number?",
+          "answers": [
+            {
+              "text": "CSLU2087654",
+              "answer_start": 1102
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00012",
+          "question": "What is the Seal Number?",
+          "answers": [
+            {
+              "text": "22098765",
+              "answer_start": 1114
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00013",
+          "question": "What is the Number of Packages?",
+          "answers": [
+            {
+              "text": "",
+              "answer_start": 0
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00014",
+          "question": "What is the Kind of Packages?",
+          "answers": [
+            {
+              "text": "",
+              "answer_start": 0
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00015",
+          "question": "What is the Port of Discharge?",
+          "answers": [
+            {
+              "text": "JAKARTA PORT",
+              "answer_start": 732
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00016",
+          "question": "What is the Part of Dry Container STC?",
+          "answers": [
+            {
+              "text": "",
+              "answer_start": 0
+            }
+          ],
+          "is_impossible": false
+        }
+      ]
+    }
+  ]
+}

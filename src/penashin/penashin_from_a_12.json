@@ -1,0 +1,185 @@
+{
+    "data": [
+        {
+            "context": "Consignor/Shipper: DELTA LOGISTICS CO., LTD 202 A1 TRAN PHU STREET, LINH TRUNG WARD, DISTRICT THU DUC, HO CHI MINH CITY, VIETNAM. TEL: (84)- 28-5678.1234 FAX: (84)- 28-5678.1235 Forwarders Ref. Customs Reference/Status Shippers Reference Bill of Lading No. HCMJKT467892023 Consigned to Order of: EAGLE CARGO LOGISTICS CO., LTD 45 JALAN RAYA, JAKARTA, 10110, INDONESIA Notify party: SAME AS CONSIGNEE OCEAN FREIGHT VIETNAM CO., LTD Country: Vietnam Port: HOCHIMINH Tel: +84 28 87654321 Fax: +84 28 87654322 Email: contact@oceanfreight.vn Booking Reference JKT46789 Addr: 88 LE QUY DON ST, WARD 5, DISTRICT 3, HO CHI MINH CITY, VIETNAM Place of Receipt HOCHIMINH CFS Vessel ATLANTIC KING V.330 Place of Loading HOCHIMINH CFS Port of Discharge JAKARTA PORT Place of Delivery JAKARTA CFS BILL OF LADING Contents, weight, value, and measurement according to sender\u00e2\u20ac\u2122s declaration Number and Kind of Packages, Description of Goods Gross Weight CBM/ Volume PART OF DRY CONTAINER STC 28.750 kgs 1.600 CBM LCL/LCL SHIPPING MARKS: DELTA EXPORTS VIETNAM FREIGHT PREPAID 1/2-2/2 INVOICE NO.: DEL-NST-034 CONTAINER & SEAL NO: CSLU2065432/21345678 (Original B/L Surrendered In HOCHIMINH CITY) According to declaration of the consignor. The goods and instructions are accepted and dealt with subject to the Company's Standard Conditions. Taken in charge in apparent good order and condition, unless otherwise noted herein, at the place of receipt for transport and delivery as mentioned above. Freight Amount Freight Payable At DESTINATION Place and Date of Issue HO CHI MINH, 10 JUN, 2023 Cargo Insurance through the undersigned Not covered: Yes/No Covered according to attached policy: Yes/No No. of Original B/Lading ZERO For delivery of goods please apply to: EAGLE CARGO LOGISTICS CO., LTD 17 JALAN SUDIRMAN, JAKARTA, 10120, INDONESIA TEL: (62) 21-6543210, FAX: (62) 21-6543211",
+            "qas": [
+                {
+                    "id": "00001",
+                    "question": "Who is the Shipper?",
+                    "answers": [
+                        {
+                            "text": "DELTA LOGISTICS CO., LTD 202 A1 TRAN PHU STREET, LINH TRUNG WARD, DISTRICT THU DUC, HO CHI MINH CITY, VIETNAM.",
+                            "answer_start": 19
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00002",
+                    "question": "Who is the Consignee?",
+                    "answers": [
+                        {
+                            "text": "EAGLE CARGO LOGISTICS CO., LTD 45 JALAN RAYA, JAKARTA, 10110, INDONESIA",
+                            "answer_start": 296
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00003",
+                    "question": "Who is the Notify Party?",
+                    "answers": [
+                        {
+                            "text": "SAME AS CONSIGNEE",
+                            "answer_start": 382
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00004",
+                    "question": "What is the Gross Weight of the shipment?",
+                    "answers": [
+                        {
+                            "text": "28.750",
+                            "answer_start": 977
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00005",
+                    "question": "What is the unit of Gross Weight?",
+                    "answers": [
+                        {
+                            "text": "kgs",
+                            "answer_start": 984
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00006",
+                    "question": "What is the Port of Lading?",
+                    "answers": [
+                        {
+                            "text": "",
+                            "answer_start": 0
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00007",
+                    "question": "What is the Place of Delivery?",
+                    "answers": [
+                        {
+                            "text": "JAKARTA CFS",
+                            "answer_start": 772
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00008",
+                    "question": "What is the dimension or tonnage?",
+                    "answers": [
+                        {
+                            "text": "1.600 CBM",
+                            "answer_start": 988
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00009",
+                    "question": "What is the Bill of Lading Number?",
+                    "answers": [
+                        {
+                            "text": "HCMJKT467892023",
+                            "answer_start": 257
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00010",
+                    "question": "What is the Place and Date of Issue?",
+                    "answers": [
+                        {
+                            "text": "HO CHI MINH, 10 JUN, 2023",
+                            "answer_start": 1550
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00011",
+                    "question": "What is the Container Number?",
+                    "answers": [
+                        {
+                            "text": "CSLU2065432",
+                            "answer_start": 1114
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00012",
+                    "question": "What is the Seal Number?",
+                    "answers": [
+                        {
+                            "text": "21345678",
+                            "answer_start": 1126
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00013",
+                    "question": "What is the Number of Packages?",
+                    "answers": [
+                        {
+                            "text": "",
+                            "answer_start": 0
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00014",
+                    "question": "What is the Kind of Packages?",
+                    "answers": [
+                        {
+                            "text": "PART OF DRY CONTAINER STC",
+                            "answer_start": 951
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00015",
+                    "question": "What is the Port of Discharge?",
+                    "answers": [
+                        {
+                            "text": "JAKARTA PORT",
+                            "answer_start": 741
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00016",
+                    "question": "What is the Part of Dry Container STC?",
+                    "answers": [
+                        {
+                            "text": "",
+                            "answer_start": ""
+                        }
+                    ],
+                    "is_impossible": false
+                }
+            ]
+        }
+    ]
+}

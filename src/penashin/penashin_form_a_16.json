@@ -1,0 +1,185 @@
+{
+  "data": [
+    {
+      "context": "Consignor/Shipper: TRIANGLE LOGISTICS CO., LTD 98 C2 DAI LOI STREET, NAM TAN TIEN WARD, LONG BIEN DISTRICT, HANOI, VIETNAM. TEL: (84)- 24-7788.9900 FAX: (84)- 24-7788.9901 Forwarders Ref. Customs Reference/Status Shippers Reference Bill of Lading No. HNCLDN97242023 Consigned to Order of: TITAN FREIGHT FORWARDERS LTD 25 BRITANNIA ROAD, LONDON, W1T 7DE, UNITED KINGDOM Notify party: SAME AS CONSIGNEE HANOI SHIPPING SOLUTIONS CO., LTD Country: Vietnam Port: HAI PHONG Tel: +84 24 87654321 Fax: +84 24 87654322 Email: contact@hanoishipping.vn Booking Reference LDN97242 Addr: 35 PHAN BOUC STREET, WARD 5, DISTRICT 7, HO CHI MINH CITY, VIETNAM Place of Receipt HAI PHONG CFS Vessel OCEANIC STAR V.150 Place of Loading HAI PHONG CFS Port of Discharge LONDON PORT Place of Delivery LONDON CFS BILL OF LADING Contents, weight, value, and measurement according to senderâ€™s declaration Number and Kind of Packages, Description of Goods Gross Weight CBM/ Volume PART OF DRY CONTAINER STC 50.000 kgs 2.300 CBM LCL/LCL SHIPPING MARKS: TRIANGLE EXPORTS VIETNAM FREIGHT PREPAID 1/2-2/2 INVOICE NO.: TRI-NST-089 CONTAINER & SEAL NO: CSLU2049801/22134567 (Original B/L Surrendered In HAI PHONG CITY) According to declaration of the consignor. The goods and instructions are accepted and dealt with subject to the Company's Standard Conditions. Taken in charge in apparent good order and condition, unless otherwise noted herein, at the place of receipt for transport and delivery as mentioned above. Freight Amount Freight Payable At DESTINATION Place and Date of Issue HO CHI MINH, 20 OCT, 2023 Cargo Insurance through the undersigned Not covered: Yes/No Covered according to attached policy: Yes/No No. of Original B/Lading ZERO For delivery of goods please apply to: TITAN FREIGHT FORWARDERS LTD 28 BRITANNIA ROAD, LONDON, W1T 7DE, UNITED KINGDOM TEL: (44) 20-12345678, FAX: (44) 20-12345679",
+      "qas": [
+        {
+          "id": "00001",
+          "question": "Who is the Shipper?",
+          "answers": [
+            {
+              "text": "TRIANGLE LOGISTICS CO., LTD 98 C2 DAI LOI STREET, NAM TAN TIEN WARD, LONG BIEN DISTRICT, HANOI, VIETNAM.",
+              "answer_start": 19
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00002",
+          "question": "Who is the Consignee?",
+          "answers": [
+            {
+              "text": "TITAN FREIGHT FORWARDERS LTD 25 BRITANNIA ROAD, LONDON, W1T 7DE, UNITED KINGDOM",
+              "answer_start": 289
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00003",
+          "question": "Who is the Notify Party?",
+          "answers": [
+            {
+              "text": "SAME AS CONSIGNEE",
+              "answer_start": 383
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00004",
+          "question": "What is the Gross Weight of the shipment?",
+          "answers": [
+            {
+              "text": "50.000",
+              "answer_start": 982
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00005",
+          "question": "What is the unit of Gross Weight?",
+          "answers": [
+            {
+              "text": "kgs",
+              "answer_start": 989
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00006",
+          "question": "What is the Port of Loading?",
+          "answers": [
+            {
+              "text": "HAI PHONG CFS",
+              "answer_start": 716
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00007",
+          "question": "What is the Place of Delivery?",
+          "answers": [
+            {
+              "text": "LONDON CFS",
+              "answer_start": 778
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00008",
+          "question": "What is the dimension or tonnage?",
+          "answers": [
+            {
+              "text": "2.300 CBM",
+              "answer_start": 993
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00009",
+          "question": "What is the Bill of Lading Number?",
+          "answers": [
+            {
+              "text": "HNCLDN97242023",
+              "answer_start": 251
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00010",
+          "question": "What is the Place and Date of Issue?",
+          "answers": [
+            {
+              "text": "HO CHI MINH, 20 OCT, 2023",
+              "answer_start": 1558
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00011",
+          "question": "What is the Container Number?",
+          "answers": [
+            {
+              "text": "CSLU2049801",
+              "answer_start": 1122
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00012",
+          "question": "What is the Seal Number?",
+          "answers": [
+            {
+              "text": "22134567",
+              "answer_start": 1134
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00013",
+          "question": "What is the Number of Packages?",
+          "answers": [
+            {
+              "text": "",
+              "answer_start": 0
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00014",
+          "question": "What is the Kind of Packages?",
+          "answers": [
+            {
+              "text": "",
+              "answer_start": 0
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00015",
+          "question": "What is the Port of Discharge?",
+          "answers": [
+            {
+              "text": "LONDON PORT",
+              "answer_start": 748
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "00016",
+          "question": "What is the Part of Dry Container STC?",
+          "answers": [
+            {
+              "text": "",
+              "answer_start": 0
+            }
+          ],
+          "is_impossible": false
+        }
+      ]
+    }
+  ]
+}

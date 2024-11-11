@@ -1,0 +1,185 @@
+{
+    "eval_data": [
+        {
+            "context": "Consignor/Shipper: VIET STAR LOGISTICS CO., LTD 88 TRAN HUNG DAO STREET, WARD 7, DISTRICT 5, HO CHI MINH CITY, VIETNAM TEL: (84)- 28-7555.1234 FAX: (84)- 28-7555.1234 Forwarders Ref. Customs Reference/Status Shippers Reference Bill of Lading No. HCMKOR456782023 Consigned to Order of: SEOUL TRADE CO., LTD 55 TEHERAN-RO, GANGNAM-GU, SEOUL, SOUTH KOREA 06174 Notify party: SAME AS CONSIGNEE KOREA SHIPPING CO., LTD Country: Vietnam Port: HOCHIMINH Tel: +84 2871075050 Fax: +84 2871075050 Email: korea@shipping.vn Booking Reference KOR45678 Addr: ROOM 12.15, 12th FLOOR, TOWER G, SAIGON PLAZA, NO 60-62 DONG KHOI ST, BEN NGHE WARD, DISTRICT 1, HCM CITY, VIETNAM Place of Receipt HOCHIMINH CFS Vessel HAN RIVER V.085N Place of Loading HOCHIMINH CFS Port of Discharge BUSAN PORT Place of Delivery BUSAN WAREHOUSE BILL OF LADING Contents, weight, value, and measurement according to sender’s declaration Number and Kind of Packages, Description of Goods Gross Weight CBM/ Volume PART OF DRY CONTAINER STC 30.000 kgs 3.000 CBM LCL/LCL SHIPPING MARKS: HAN VINA CO., LTD FREIGHT COLLECT 1/4-4/4 INVOICE NO.: HV-HCM-020 CONTAINER & SEAL NO: TRLU1234567/67894532 (Original B/L Surrendered In HOCHIMINH CITY) According to declaration of the consignor. The goods and instructions are accepted and dealt with subject to the Company's Standard Conditions. Taken in charge in apparent good order and condition, unless otherwise noted herein, at the place of receipt for transport and delivery as mentioned above. Freight Amount Freight Payable At DESTINATION Place and Date of Issue HO CHI MINH, 03 OCT, 2023 Cargo Insurance through the undersigned Not covered: Yes/No Covered according to attached policy: Yes/No No. of Original B/Lading TWO For delivery of goods please apply to: KOREA SHIPPING CO., LTD 20-5 JUNGANG-DAERO, DONG-GU, BUSAN, SOUTH KOREA 601-010 TEL: (82) 51-999-1234, FAX: (82) 51-999-1235",
+            "qas": [
+                {
+                    "id": "00001",
+                    "is_impossible": false,
+                    "question": "Who is the Shipper?",
+                    "answers": [
+                        {
+                            "text": "VIET STAR LOGISTICS CO., LTD 88 TRAN HUNG DAO STREET, WARD 7, DISTRICT 5, HO CHI MINH CITY, VIETNAM",
+                            "answer_start": 19
+                        }
+                    ]
+                },
+                {
+                    "id": "00002",
+                    "is_impossible": false,
+                    "question": "Who is the Consignee?",
+                    "answers": [
+                        {
+                            "text": "SEOUL TRADE CO., LTD 55 TEHERAN-RO, GANGNAM-GU, SEOUL, SOUTH KOREA 06174",
+                            "answer_start": 147
+                        }
+                    ]
+                },
+                {
+                    "id": "00003",
+                    "is_impossible": false,
+                    "question": "Who is the Notify Party?",
+                    "answers": [
+                        {
+                            "text": "SAME AS CONSIGNEE",
+                            "answer_start": 261
+                        }
+                    ]
+                },
+                {
+                    "id": "00004",
+                    "is_impossible": false,
+                    "question": "What is the Gross Weight of the shipment?",
+                    "answers": [
+                        {
+                            "text": "30.000 kgs",
+                            "answer_start": 702
+                        }
+                    ]
+                },
+                {
+                    "id": "00005",
+                    "is_impossible": false,
+                    "question": "What is the unit of Gross Weight?",
+                    "answers": [
+                        {
+                            "text": "kgs",
+                            "answer_start": 710
+                        }
+                    ]
+                },
+                {
+                    "id": "00006",
+                    "is_impossible": false,
+                    "question": "What is the Port of Loading?",
+                    "answers": [
+                        {
+                            "text": "HOCHIMINH CFS",
+                            "answer_start": 577
+                        }
+                    ]
+                },
+                {
+                    "id": "00007",
+                    "is_impossible": false,
+                    "question": "What is the Place of Delivery?",
+                    "answers": [
+                        {
+                            "text": "BUSAN WAREHOUSE",
+                            "answer_start": 689
+                        }
+                    ]
+                },
+                {
+                    "id": "00008",
+                    "is_impossible": false,
+                    "question": "What is the dimension or tonnage?",
+                    "answers": [
+                        {
+                            "text": "3.000 CBM",
+                            "answer_start": 735
+                        }
+                    ]
+                },
+                {
+                    "id": "00009",
+                    "is_impossible": false,
+                    "question": "What is the Bill of Lading Number?",
+                    "answers": [
+                        {
+                            "text": "HCMKOR456782023",
+                            "answer_start": 265
+                        }
+                    ]
+                },
+                {
+                    "id": "00010",
+                    "is_impossible": false,
+                    "question": "What is the Place and Date of Issue?",
+                    "answers": [
+                        {
+                            "text": "HO CHI MINH, 03 OCT, 2023",
+                            "answer_start": 1004
+                        }
+                    ]
+                },
+                {
+                    "id": "00011",
+                    "is_impossible": false,
+                    "question": "What is the Container Number?",
+                    "answers": [
+                        {
+                            "text": "TRLU1234567",
+                            "answer_start": 817
+                        }
+                    ]
+                },
+                {
+                    "id": "00012",
+                    "is_impossible": false,
+                    "question": "What is the Seal Number?",
+                    "answers": [
+                        {
+                            "text": "67894532",
+                            "answer_start": 829
+                        }
+                    ]
+                },
+                {
+                    "id": "00013",
+                    "is_impossible": false,
+                    "question": "What is the Number of Packages?",
+                    "answers": [
+                        {
+                            "text": "",
+                            "answer_start": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "00014",
+                    "is_impossible": false,
+                    "question": "What is the Kind of Packages?",
+                    "answers": [
+                        {
+                            "text": "PART OF DRY CONTAINER STC",
+                            "answer_start": 731
+                        }
+                    ]
+                },
+                {
+                    "id": "00015",
+                    "is_impossible": false,
+                    "question": "What is the Port of Discharge?",
+                    "answers": [
+                        {
+                            "text": "BUSAN PORT",
+                            "answer_start": 661
+                        }
+                    ]
+                },
+                {
+                    "id": "00016",
+                    "is_impossible": false,
+                    "question": "What is the Part of Dry Container STC?",
+                    "answers": [
+                        {
+                            "text": "",
+                            "answer_start": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

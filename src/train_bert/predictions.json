@@ -1,0 +1,545 @@
+[
+    {
+        "context": "Consignor/Shipper: PACIFIC SHIPPING CO., LTD 65 PHAN XICH LONG STREET, WARD 2, PHU NHUAN DISTRICT, HO CHI MINH CITY, VIETNAM TEL: (84)- 28-7364.7890 FAX: (84)- 28-7364.7890 Forwarders Ref. Customs Reference/Status Shippers Reference Bill of Lading No. HCMSIN123452023 Consigned to Order of: SEA LINK CO., LTD 15 SERANGOON NORTH AVENUE 5, SERANGOON, SINGAPORE 554360 Notify party: SAME AS CONSIGNEE GLOBE SHIPPING PTE LTD Country: Vietnam Port: HOCHIMINH Tel: +84 2871093030 Fax: +84 2871093030 Email: info@globeship.vn Booking Reference SIN12345 Addr: ROOM 10.21, 10th FLOOR, TOWER E, DIAMOND PLAZA, NO 34 LE DUAN BLVD, BEN NGHE WARD, DISTRICT 1, HCM CITY, VIETNAM Place of Receipt HOCHIMINH CFS Vessel SEA DRAGON V.051S Place of Loading HOCHIMINH CFS Port of Discharge SINGAPORE PORT Place of Delivery SINGAPORE WAREHOUSE BILL OF LADING Contents, weight, value, and measurement according to sender’s declaration Number and Kind of Packages, Description of Goods Gross Weight CBM/ Volume PART OF DRY CONTAINER STC 25.000 kgs 2.100 CBM LCL/LCL SHIPPING MARKS: ELECTRO GOODS CO., LTD FREIGHT COLLECT 1/3-3/3 INVOICE NO.: EG-HCM-012 CONTAINER & SEAL NO: CAXU3487950/45987621 (Original B/L Surrendered In HOCHIMINH CITY) According to declaration of the consignor. The goods and instructions are accepted and dealt with subject to the Company's Standard Conditions. Taken in charge in apparent good order and condition, unless otherwise noted herein, at the place of receipt for transport and delivery as mentioned above. Freight Amount Freight Payable At DESTINATION Place and Date of Issue HO CHI MINH, 18 OCT, 2023 Cargo Insurance through the undersigned Not covered: Yes/No Covered according to attached policy: Yes/No No. of Original B/Lading FOUR For delivery of goods please apply to: GLOBE SHIPPING PTE LTD 8 JURONG TOWN HALL ROAD, SINGAPORE 609434 TEL: (65) 6354 5678, FAX: (65) 6354 5679",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "Who is the Shipper?",
+                "answers": [
+                    {
+                        "text": "PACIFIC SHIPPING CO., LTD 65 PHAN XICH LONG STREET, WARD 2, PHU NHUAN DISTRICT, HO CHI MINH CITY, VIETNAM",
+                        "answer_start": 19
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "Who is the Consignee?",
+                "answers": [
+                    {
+                        "text": "SEA LINK CO., LTD 15 SERANGOON NORTH AVENUE 5, SERANGOON, SINGAPORE 554360",
+                        "answer_start": 160
+                    }
+                ]
+            },
+            {
+                "id": "00003",
+                "is_impossible": false,
+                "question": "Who is the Notify Party?",
+                "answers": [
+                    {
+                        "text": "SAME AS CONSIGNEE",
+                        "answer_start": 272
+                    }
+                ]
+            },
+            {
+                "id": "00004",
+                "is_impossible": false,
+                "question": "What is the Gross Weight of the shipment?",
+                "answers": [
+                    {
+                        "text": "25.000 kgs",
+                        "answer_start": 733
+                    }
+                ]
+            },
+            {
+                "id": "00005",
+                "is_impossible": false,
+                "question": "What is the unit of Gross Weight?",
+                "answers": [
+                    {
+                        "text": "kgs",
+                        "answer_start": 741
+                    }
+                ]
+            },
+            {
+                "id": "00006",
+                "is_impossible": false,
+                "question": "What is the Port of Loading?",
+                "answers": [
+                    {
+                        "text": "HOCHIMINH CFS",
+                        "answer_start": 615
+                    }
+                ]
+            },
+            {
+                "id": "00007",
+                "is_impossible": false,
+                "question": "What is the Place of Delivery?",
+                "answers": [
+                    {
+                        "text": "SINGAPORE WAREHOUSE",
+                        "answer_start": 707
+                    }
+                ]
+            },
+            {
+                "id": "00008",
+                "is_impossible": false,
+                "question": "What is the dimension or tonnage?",
+                "answers": [
+                    {
+                        "text": "2.100 CBM",
+                        "answer_start": 749
+                    }
+                ]
+            },
+            {
+                "id": "00009",
+                "is_impossible": false,
+                "question": "What is the Bill of Lading Number?",
+                "answers": [
+                    {
+                        "text": "HCMSIN123452023",
+                        "answer_start": 276
+                    }
+                ]
+            },
+            {
+                "id": "00010",
+                "is_impossible": false,
+                "question": "What is the Place and Date of Issue?",
+                "answers": [
+                    {
+                        "text": "HO CHI MINH, 18 OCT, 2023",
+                        "answer_start": 1051
+                    }
+                ]
+            },
+            {
+                "id": "00011",
+                "is_impossible": false,
+                "question": "What is the Container Number?",
+                "answers": [
+                    {
+                        "text": "CAXU3487950",
+                        "answer_start": 817
+                    }
+                ]
+            },
+            {
+                "id": "00012",
+                "is_impossible": false,
+                "question": "What is the Seal Number?",
+                "answers": [
+                    {
+                        "text": "45987621",
+                        "answer_start": 829
+                    }
+                ]
+            },
+            {
+                "id": "00013",
+                "is_impossible": false,
+                "question": "What is the Number of Packages?",
+                "answers": [
+                    {
+                        "text": "",
+                        "answer_start": 0
+                    }
+                ]
+            },
+            {
+                "id": "00014",
+                "is_impossible": false,
+                "question": "What is the Kind of Packages?",
+                "answers": [
+                    {
+                        "text": "PART OF DRY CONTAINER STC",
+                        "answer_start": 732
+                    }
+                ]
+            },
+            {
+                "id": "00015",
+                "is_impossible": false,
+                "question": "What is the Port of Discharge?",
+                "answers": [
+                    {
+                        "text": "SINGAPORE PORT",
+                        "answer_start": 663
+                    }
+                ]
+            },
+            {
+                "id": "00016",
+                "is_impossible": false,
+                "question": "What is the Part of Dry Container STC?",
+                "answers": [
+                    {
+                        "text": "",
+                        "answer_start": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Consignor/Shipper: ASIA EXPORT CO., LTD 123 DIEN BIEN PHU STREET, WARD 15, BINH THANH DISTRICT, HO CHI MINH CITY, VIETNAM TEL: (84)- 28-7456.8901 FAX: (84)- 28-7456.8901 Forwarders Ref. Customs Reference/Status Shippers Reference Bill of Lading No. HCMJPN098762023 Consigned to Order of: NIPPON TRADING CO., LTD 5-14-10 HIGASHISHINAGAWA, SHINAGAWA-KU, TOKYO, JAPAN 140-0002 Notify party: SAME AS CONSIGNEE TOKYO FREIGHT CO., LTD Country: Vietnam Port: HOCHIMINH Tel: +84 2871084040 Fax: +84 2871084040 Email: contact@tokyofreight.vn Booking Reference JPN09876 Addr: ROOM 11.05, 11th FLOOR, TOWER F, VIETCOM PLAZA, NO 50 HAM NGHI ST, WARD 1, DISTRICT 1, HCM CITY, VIETNAM Place of Receipt HOCHIMINH CFS Vessel EASTERN STAR V.067N Place of Loading HOCHIMINH CFS Port of Discharge TOKYO PORT Place of Delivery TOKYO WAREHOUSE BILL OF LADING Contents, weight, value, and measurement according to sender’s declaration Number and Kind of Packages, Description of Goods Gross Weight CBM/ Volume PART OF DRY CONTAINER STC 27.500 kgs 2.500 CBM LCL/LCL SHIPPING MARKS: NIKKO ELECTRONICS CO., LTD FREIGHT PREPAID 1/6-6/6 INVOICE NO.: NE-HCM-015 CONTAINER & SEAL NO: YMLU3998745/54321678 (Original B/L Surrendered In HOCHIMINH CITY) According to declaration of the consignor. The goods and instructions are accepted and dealt with subject to the Company's Standard Conditions. Taken in charge in apparent good order and condition, unless otherwise noted herein, at the place of receipt for transport and delivery as mentioned above. Freight Amount Freight Payable At DESTINATION Place and Date of Issue HO CHI MINH, 25 NOV, 2023 Cargo Insurance through the undersigned Not covered: Yes/No Covered according to attached policy: Yes/No No. of Original B/Lading FIVE For delivery of goods please apply to: TOKYO FREIGHT CO., LTD 1-12-6 SHIMBASHI, MINATO-KU, TOKYO, JAPAN 105-0004 TEL: (81) 3-6280-3000, FAX: (81) 3-6280-3001",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "Who is the Shipper?",
+                "answers": [
+                    {
+                        "text": "ASIA EXPORT CO., LTD 123 DIEN BIEN PHU STREET, WARD 15, BINH THANH DISTRICT, HO CHI MINH CITY, VIETNAM",
+                        "answer_start": 19
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "Who is the Consignee?",
+                "answers": [
+                    {
+                        "text": "NIPPON TRADING CO., LTD 5-14-10 HIGASHISHINAGAWA, SHINAGAWA-KU, TOKYO, JAPAN 140-0002",
+                        "answer_start": 160
+                    }
+                ]
+            },
+            {
+                "id": "00003",
+                "is_impossible": false,
+                "question": "Who is the Notify Party?",
+                "answers": [
+                    {
+                        "text": "SAME AS CONSIGNEE",
+                        "answer_start": 272
+                    }
+                ]
+            },
+            {
+                "id": "00004",
+                "is_impossible": false,
+                "question": "What is the Gross Weight of the shipment?",
+                "answers": [
+                    {
+                        "text": "27.500 kgs",
+                        "answer_start": 733
+                    }
+                ]
+            },
+            {
+                "id": "00005",
+                "is_impossible": false,
+                "question": "What is the unit of Gross Weight?",
+                "answers": [
+                    {
+                        "text": "kgs",
+                        "answer_start": 741
+                    }
+                ]
+            },
+            {
+                "id": "00006",
+                "is_impossible": false,
+                "question": "What is the Port of Loading?",
+                "answers": [
+                    {
+                        "text": "HOCHIMINH CFS",
+                        "answer_start": 615
+                    }
+                ]
+            },
+            {
+                "id": "00007",
+                "is_impossible": false,
+                "question": "What is the Place of Delivery?",
+                "answers": [
+                    {
+                        "text": "TOKYO WAREHOUSE",
+                        "answer_start": 707
+                    }
+                ]
+            },
+            {
+                "id": "00008",
+                "is_impossible": false,
+                "question": "What is the dimension or tonnage?",
+                "answers": [
+                    {
+                        "text": "2.500 CBM",
+                        "answer_start": 749
+                    }
+                ]
+            },
+            {
+                "id": "00009",
+                "is_impossible": false,
+                "question": "What is the Bill of Lading Number?",
+                "answers": [
+                    {
+                        "text": "HCMJPN098762023",
+                        "answer_start": 276
+                    }
+                ]
+            },
+            {
+                "id": "00010",
+                "is_impossible": false,
+                "question": "What is the Place and Date of Issue?",
+                "answers": [
+                    {
+                        "text": "HO CHI MINH, 25 NOV, 2023",
+                        "answer_start": 1051
+                    }
+                ]
+            },
+            {
+                "id": "00011",
+                "is_impossible": false,
+                "question": "What is the Container Number?",
+                "answers": [
+                    {
+                        "text": "YMLU3998745",
+                        "answer_start": 817
+                    }
+                ]
+            },
+            {
+                "id": "00012",
+                "is_impossible": false,
+                "question": "What is the Seal Number?",
+                "answers": [
+                    {
+                        "text": "54321678",
+                        "answer_start": 829
+                    }
+                ]
+            },
+            {
+                "id": "00013",
+                "is_impossible": false,
+                "question": "What is the Number of Packages?",
+                "answers": [
+                    {
+                        "text": "",
+                        "answer_start": 0
+                    }
+                ]
+            },
+            {
+                "id": "00014",
+                "is_impossible": false,
+                "question": "What is the Kind of Packages?",
+                "answers": [
+                    {
+                        "text": "PART OF DRY CONTAINER STC",
+                        "answer_start": 732
+                    }
+                ]
+            },
+            {
+                "id": "00015",
+                "is_impossible": false,
+                "question": "What is the Port of Discharge?",
+                "answers": [
+                    {
+                        "text": "TOKYO PORT",
+                        "answer_start": 663
+                    }
+                ]
+            },
+            {
+                "id": "00016",
+                "is_impossible": false,
+                "question": "What is the Part of Dry Container STC?",
+                "answers": [
+                    {
+                        "text": "",
+                        "answer_start": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Consignor/Shipper: VIET STAR LOGISTICS CO., LTD 88 TRAN HUNG DAO STREET, WARD 7, DISTRICT 5, HO CHI MINH CITY, VIETNAM TEL: (84)- 28-7555.1234 FAX: (84)- 28-7555.1234 Forwarders Ref. Customs Reference/Status Shippers Reference Bill of Lading No. HCMKOR456782023 Consigned to Order of: SEOUL TRADE CO., LTD 55 TEHERAN-RO, GANGNAM-GU, SEOUL, SOUTH KOREA 06174 Notify party: SAME AS CONSIGNEE KOREA SHIPPING CO., LTD Country: Vietnam Port: HOCHIMINH Tel: +84 2871075050 Fax: +84 2871075050 Email: korea@shipping.vn Booking Reference KOR45678 Addr: ROOM 12.15, 12th FLOOR, TOWER G, SAIGON PLAZA, NO 60-62 DONG KHOI ST, BEN NGHE WARD, DISTRICT 1, HCM CITY, VIETNAM Place of Receipt HOCHIMINH CFS Vessel HAN RIVER V.085N Place of Loading HOCHIMINH CFS Port of Discharge BUSAN PORT Place of Delivery BUSAN WAREHOUSE BILL OF LADING Contents, weight, value, and measurement according to sender’s declaration Number and Kind of Packages, Description of Goods Gross Weight CBM/ Volume PART OF DRY CONTAINER STC 30.000 kgs 3.000 CBM LCL/LCL SHIPPING MARKS: HAN VINA CO., LTD FREIGHT COLLECT 1/4-4/4 INVOICE NO.: HV-HCM-020 CONTAINER & SEAL NO: TRLU1234567/67894532 (Original B/L Surrendered In HOCHIMINH CITY) According to declaration of the consignor. The goods and instructions are accepted and dealt with subject to the Company's Standard Conditions. Taken in charge in apparent good order and condition, unless otherwise noted herein, at the place of receipt for transport and delivery as mentioned above. Freight Amount Freight Payable At DESTINATION Place and Date of Issue HO CHI MINH, 03 OCT, 2023 Cargo Insurance through the undersigned Not covered: Yes/No Covered according to attached policy: Yes/No No. of Original B/Lading TWO For delivery of goods please apply to: KOREA SHIPPING CO., LTD 20-5 JUNGANG-DAERO, DONG-GU, BUSAN, SOUTH KOREA 601-010 TEL: (82) 51-999-1234, FAX: (82) 51-999-1235",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "Who is the Shipper?",
+                "answers": [
+                    {
+                        "text": "VIET STAR LOGISTICS CO., LTD 88 TRAN HUNG DAO STREET, WARD 7, DISTRICT 5, HO CHI MINH CITY, VIETNAM",
+                        "answer_start": 19
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "Who is the Consignee?",
+                "answers": [
+                    {
+                        "text": "SEOUL TRADE CO., LTD 55 TEHERAN-RO, GANGNAM-GU, SEOUL, SOUTH KOREA 06174",
+                        "answer_start": 147
+                    }
+                ]
+            },
+            {
+                "id": "00003",
+                "is_impossible": false,
+                "question": "Who is the Notify Party?",
+                "answers": [
+                    {
+                        "text": "SAME AS CONSIGNEE",
+                        "answer_start": 261
+                    }
+                ]
+            },
+            {
+                "id": "00004",
+                "is_impossible": false,
+                "question": "What is the Gross Weight of the shipment?",
+                "answers": [
+                    {
+                        "text": "30.000 kgs",
+                        "answer_start": 702
+                    }
+                ]
+            },
+            {
+                "id": "00005",
+                "is_impossible": false,
+                "question": "What is the unit of Gross Weight?",
+                "answers": [
+                    {
+                        "text": "kgs",
+                        "answer_start": 710
+                    }
+                ]
+            },
+            {
+                "id": "00006",
+                "is_impossible": false,
+                "question": "What is the Port of Loading?",
+                "answers": [
+                    {
+                        "text": "HOCHIMINH CFS",
+                        "answer_start": 577
+                    }
+                ]
+            },
+            {
+                "id": "00007",
+                "is_impossible": false,
+                "question": "What is the Place of Delivery?",
+                "answers": [
+                    {
+                        "text": "BUSAN WAREHOUSE",
+                        "answer_start": 689
+                    }
+                ]
+            },
+            {
+                "id": "00008",
+                "is_impossible": false,
+                "question": "What is the dimension or tonnage?",
+                "answers": [
+                    {
+                        "text": "3.000 CBM",
+                        "answer_start": 735
+                    }
+                ]
+            },
+            {
+                "id": "00009",
+                "is_impossible": false,
+                "question": "What is the Bill of Lading Number?",
+                "answers": [
+                    {
+                        "text": "HCMKOR456782023",
+                        "answer_start": 265
+                    }
+                ]
+            },
+            {
+                "id": "00010",
+                "is_impossible": false,
+                "question": "What is the Place and Date of Issue?",
+                "answers": [
+                    {
+                        "text": "HO CHI MINH, 03 OCT, 2023",
+                        "answer_start": 1004
+                    }
+                ]
+            },
+            {
+                "id": "00011",
+                "is_impossible": false,
+                "question": "What is the Container Number?",
+                "answers": [
+                    {
+                        "text": "TRLU1234567",
+                        "answer_start": 817
+                    }
+                ]
+            },
+            {
+                "id": "00012",
+                "is_impossible": false,
+                "question": "What is the Seal Number?",
+                "answers": [
+                    {
+                        "text": "67894532",
+                        "answer_start": 829
+                    }
+                ]
+            },
+            {
+                "id": "00013",
+                "is_impossible": false,
+                "question": "What is the Number of Packages?",
+                "answers": [
+                    {
+                        "text": "",
+                        "answer_start": 0
+                    }
+                ]
+            },
+            {
+                "id": "00014",
+                "is_impossible": false,
+                "question": "What is the Kind of Packages?",
+                "answers": [
+                    {
+                        "text": "PART OF DRY CONTAINER STC",
+                        "answer_start": 731
+                    }
+                ]
+            },
+            {
+                "id": "00015",
+                "is_impossible": false,
+                "question": "What is the Port of Discharge?",
+                "answers": [
+                    {
+                        "text": "BUSAN PORT",
+                        "answer_start": 661
+                    }
+                ]
+            },
+            {
+                "id": "00016",
+                "is_impossible": false,
+                "question": "What is the Part of Dry Container STC?",
+                "answers": [
+                    {
+                        "text": "",
+                        "answer_start": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

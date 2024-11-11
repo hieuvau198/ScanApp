@@ -1,0 +1,185 @@
+{
+    "eval_data": [
+        {
+            "context": "Consignor/Shipper: VIET GLOBAL CO., LTD 102 NGUYEN HUE STREET, BEN NGHE WARD, DISTRICT 1, HO CHI MINH CITY, VIETNAM TEL: (84)- 28-7896.3456 FAX: (84)- 28-7896.3456 Forwarders Ref. Customs Reference/Status Shippers Reference Bill of Lading No. HCMAUS678902023 Consigned to Order of: AUS IMPORTS PTY LTD 25 WILLIAM STREET, SYDNEY, NSW 2000, AUSTRALIA Notify party: SAME AS CONSIGNEE PACIFIC SHIPPING AUSTRALIA PTY LTD Country: Vietnam Port: HOCHIMINH Tel: +84 2871086060 Fax: +84 2871086060 Email: australia@pacship.vn Booking Reference AUS67890 Addr: ROOM 7.20, 7th FLOOR, TOWER H, CENTRAL TOWER, NO 72 LE LAI ST, BEN THANH WARD, DISTRICT 1, HCM CITY, VIETNAM Place of Receipt HOCHIMINH CFS Vessel OCEANIA EXPRESS V.032W Place of Loading HOCHIMINH CFS Port of Discharge SYDNEY PORT Place of Delivery SYDNEY WAREHOUSE BILL OF LADING Contents, weight, value, and measurement according to sender’s declaration Number and Kind of Packages, Description of Goods Gross Weight CBM/ Volume PART OF DRY CONTAINER STC 28.000 kgs 2.800 CBM LCL/LCL SHIPPING MARKS: OZ ELECTRONICS LTD FREIGHT PREPAID 1/5-5/5 INVOICE NO.: OZ-HCM-030 CONTAINER & SEAL NO: BMOU5432109/45678912 (Original B/L Surrendered In HOCHIMINH CITY) According to declaration of the consignor. The goods and instructions are accepted and dealt with subject to the Company's Standard Conditions. Taken in charge in apparent good order and condition, unless otherwise noted herein, at the place of receipt for transport and delivery as mentioned above. Freight Amount Freight Payable At DESTINATION Place and Date of Issue HO CHI MINH, 15 NOV, 2023 Cargo Insurance through the undersigned Not covered: Yes/No Covered according to attached policy: Yes/No No. of Original B/Lading THREE For delivery of goods please apply to: PACIFIC SHIPPING AUSTRALIA PTY LTD 50 PITT STREET, SYDNEY, NSW 2000, AUSTRALIA TEL: (61) 2-9123-4567, FAX: (61) 2-9123-4568",
+            "qas": [
+                {
+                    "id": "00001",
+                    "is_impossible": false,
+                    "question": "Who is the Shipper?",
+                    "answers": [
+                        {
+                            "text": "VIET GLOBAL CO., LTD 102 NGUYEN HUE STREET, BEN NGHE WARD, DISTRICT 1, HO CHI MINH CITY, VIETNAM",
+                            "answer_start": 19
+                        }
+                    ]
+                },
+                {
+                    "id": "00002",
+                    "is_impossible": false,
+                    "question": "Who is the Consignee?",
+                    "answers": [
+                        {
+                            "text": "AUS IMPORTS PTY LTD 25 WILLIAM STREET, SYDNEY, NSW 2000, AUSTRALIA",
+                            "answer_start": 147
+                        }
+                    ]
+                },
+                {
+                    "id": "00003",
+                    "is_impossible": false,
+                    "question": "Who is the Notify Party?",
+                    "answers": [
+                        {
+                            "text": "SAME AS CONSIGNEE",
+                            "answer_start": 261
+                        }
+                    ]
+                },
+                {
+                    "id": "00004",
+                    "is_impossible": false,
+                    "question": "What is the Gross Weight of the shipment?",
+                    "answers": [
+                        {
+                            "text": "28.000 kgs",
+                            "answer_start": 702
+                        }
+                    ]
+                },
+                {
+                    "id": "00005",
+                    "is_impossible": false,
+                    "question": "What is the unit of Gross Weight?",
+                    "answers": [
+                        {
+                            "text": "kgs",
+                            "answer_start": 710
+                        }
+                    ]
+                },
+                {
+                    "id": "00006",
+                    "is_impossible": false,
+                    "question": "What is the Port of Loading?",
+                    "answers": [
+                        {
+                            "text": "HOCHIMINH CFS",
+                            "answer_start": 577
+                        }
+                    ]
+                },
+                {
+                    "id": "00007",
+                    "is_impossible": false,
+                    "question": "What is the Place of Delivery?",
+                    "answers": [
+                        {
+                            "text": "SYDNEY WAREHOUSE",
+                            "answer_start": 689
+                        }
+                    ]
+                },
+                {
+                    "id": "00008",
+                    "is_impossible": false,
+                    "question": "What is the dimension or tonnage?",
+                    "answers": [
+                        {
+                            "text": "2.800 CBM",
+                            "answer_start": 735
+                        }
+                    ]
+                },
+                {
+                    "id": "00009",
+                    "is_impossible": false,
+                    "question": "What is the Bill of Lading Number?",
+                    "answers": [
+                        {
+                            "text": "HCMAUS678902023",
+                            "answer_start": 265
+                        }
+                    ]
+                },
+                {
+                    "id": "00010",
+                    "is_impossible": false,
+                    "question": "What is the Place and Date of Issue?",
+                    "answers": [
+                        {
+                            "text": "HO CHI MINH, 15 NOV, 2023",
+                            "answer_start": 1004
+                        }
+                    ]
+                },
+                {
+                    "id": "00011",
+                    "is_impossible": false,
+                    "question": "What is the Container Number?",
+                    "answers": [
+                        {
+                            "text": "BMOU5432109",
+                            "answer_start": 817
+                        }
+                    ]
+                },
+                {
+                    "id": "00012",
+                    "is_impossible": false,
+                    "question": "What is the Seal Number?",
+                    "answers": [
+                        {
+                            "text": "45678912",
+                            "answer_start": 829
+                        }
+                    ]
+                },
+                {
+                    "id": "00013",
+                    "is_impossible": false,
+                    "question": "What is the Number of Packages?",
+                    "answers": [
+                        {
+                            "text": "",
+                            "answer_start": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "00014",
+                    "is_impossible": false,
+                    "question": "What is the Kind of Packages?",
+                    "answers": [
+                        {
+                            "text": "PART OF DRY CONTAINER STC",
+                            "answer_start": 731
+                        }
+                    ]
+                },
+                {
+                    "id": "00015",
+                    "is_impossible": false,
+                    "question": "What is the Port of Discharge?",
+                    "answers": [
+                        {
+                            "text": "SYDNEY PORT",
+                            "answer_start": 661
+                        }
+                    ]
+                },
+                {
+                    "id": "00016",
+                    "is_impossible": false,
+                    "question": "What is the Part of Dry Container STC?",
+                    "answers": [
+                        {
+                            "text": "",
+                            "answer_start": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

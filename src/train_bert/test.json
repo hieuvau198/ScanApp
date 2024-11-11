@@ -1,0 +1,545 @@
+[
+    {
+        "context": "Consignor/Shipper: SS. LOGISTICS CO., LTD 280A25 LUONG DINH CUA STREET, AN PHU WARD, DISTRICT THU DUC, HO CHI MINH CITY, VIETNAM. TEL: (84)- 28-7106.9986 FAX: (84)- 28.7106.9986 Forwarders Ref. Customs Reference/Status Shippers Reference Bill of Lading No. HCMBKK033112022 Consigned to Order of: ISSL. LOGISTICS CO., LTD 22 /22 SOI CHALERMPRAKEIT RAMA 9 42, CHALERMPRAKEIT ROAD, KWANG NONGPON KHET PRALET, BANGKOK 10250, THAILAND Notify party: SAME AS CONSIGNEE PENANSHIN SHIPPING HCM CO., LTD Country: Vietnam Port: HOCHIMINH Tel: +84 2871079090 Fax: +84 2871069090 Email: general@penanshin.com.vn Booking Reference BKK03311 Addr: ROOM 6.32, 6th FLOOR, TOWER B, RIVERGATE BUILDING, NO 151-155 BEN VAN DON ST, WARD 6, DISTRICT 4, HCM CITY, VIETNAM Place of Receipt HOCHIMINH CFS Vessel HANSA OSTERBURG V.040S Place of Loading HOCHIMINH CFS Port of Discharge BANGKOK CES Place of Delivery BANGKOK CFS BILL OF LADING Contents, weight, value, and measurement according to senderâ€™s declaration Number and Kind of Packages, Description of Goods Gross Weight CBM/ Volume PART OF DRY CONTAINER STC 19.760 kgs 1.000 CBM LCL/LCL SHIPPING MARKS: HOYA LENS VIETNAM FREIGHT PREPAID 1/2-2/2 INVOICE NO.: HOLV-NST-001 CONTAINER & SEAL NO: CSLU2082865/21567932 (Original B/L Surrendered In HOCHIMINH CITY) According to declaration of the consignor. The goods and instructions are accepted and dealt with subject to the Company's Standard Conditions. Taken in charge in apparent good order and condition, unless otherwise noted herein, at the place of receipt for transport and delivery as mentioned above. Freight Amount Freight Payable At DESTINATION Place and Date of Issue HO CHI MINH, 01 DEC, 2022 Cargo Insurance through the undersigned Not covered: Yes/No Covered according to attached policy: Yes/No No. of Original B/Lading ZERO For delivery of goods please apply to: PENANSHIN SHIPPING (THAILAND) LTD. 1731/32 RATCHADAPISEK ROAD, BANGPONGPENG YANNAWA, BANGKOK 10120, THAILAND TEL: (662) 6839199, FAX: (662) 6839177-78",
+        "qas": [
+            {
+                "id": "00001",
+                "question": "Who is the Shipper?",
+                "answers": [
+                    {
+                        "text": "SS. LOGISTICS CO., LTD 280A25 LUONG DINH CUA STREET, AN PHU WARD, DISTRICT THU DUC, HO CHI MINH CITY, VIETNAM.",
+                        "answer_start": 19
+                    }
+                ],
+                "is_impossible": false
+            },
+            {
+                "id": "00002",
+                "question": "Who is the Consignee?",
+                "answers": [
+                    {
+                        "text": "ISSL. LOGISTICS CO., LTD 22 /22 SOI CHALERMPRAKEIT RAMA 9 42, CHALERMPRAKEIT ROAD, KWANG NONGPON KHET PRALET, BANGKOK 10250, THAILAND",
+                        "answer_start": 296
+                    }
+                ],
+                "is_impossible": false
+            },
+            {
+                "id": "00003",
+                "question": "Who is the Notify Party?",
+                "answers": [
+                    {
+                        "text": "SAME AS CONSIGNEE",
+                        "answer_start": 444
+                    }
+                ],
+                "is_impossible": false
+            },
+            {
+                "id": "00004",
+                "question": "What is the Gross Weight of the shipment?",
+                "answers": [
+                    {
+                        "text": "19.760",
+                        "answer_start": 1093
+                    }
+                ],
+                "is_impossible": false
+            },
+            {
+                "id": "00005",
+                "question": "What is the unit of Gross Weight?",
+                "answers": [
+                    {
+                        "text": "kgs",
+                        "answer_start": 1100
+                    }
+                ],
+                "is_impossible": false
+            },
+            {
+                "id": "00006",
+                "question": "What is the Port of Loading?",
+                "answers": [
+                    {
+                        "text": "HOCHIMINH CFS",
+                        "answer_start": 826
+                    }
+                ],
+                "is_impossible": false
+            },
+            {
+                "id": "00007",
+                "question": "What is the Place of Delivery?",
+                "answers": [
+                    {
+                        "text": "BANGKOK CFS",
+                        "answer_start": 888
+                    }
+                ],
+                "is_impossible": false
+            },
+            {
+                "id": "00008",
+                "question": "What is the dimension or tonnage?",
+                "answers": [
+                    {
+                        "text": "1.000 CBM",
+                        "answer_start": 1104
+                    }
+                ],
+                "is_impossible": false
+            },
+            {
+                "id": "00009",
+                "question": "What is the Bill of Lading Number?",
+                "answers": [
+                    {
+                        "text": "HCMBKK033112022",
+                        "answer_start": 257
+                    }
+                ],
+                "is_impossible": false
+            },
+            {
+                "id": "00010",
+                "question": "What is the Place and Date of Issue?",
+                "answers": [
+                    {
+                        "text": "HO CHI MINH, 01 DEC, 2022",
+                        "answer_start": 1663
+                    }
+                ],
+                "is_impossible": false
+            },
+            {
+                "id": "00011",
+                "question": "What is the Container Number?",
+                "answers": [
+                    {
+                        "text": "CSLU2082865",
+                        "answer_start": 1227
+                    }
+                ],
+                "is_impossible": false
+            },
+            {
+                "id": "00012",
+                "question": "What is the Seal Number?",
+                "answers": [
+                    {
+                        "text": "21567932",
+                        "answer_start": 1239
+                    }
+                ],
+                "is_impossible": false
+            },
+            {
+                "id": "00013",
+                "question": "What is the Number of Packages?",
+                "answers": [
+                    {
+                        "text": "",
+                        "answer_start": 0
+                    }
+                ],
+                "is_impossible": false
+            },
+            {
+                "id": "00014",
+                "question": "What is the Kind of Packages?",
+                "answers": [
+                    {
+                        "text": "",
+                        "answer_start": 0
+                    }
+                ],
+                "is_impossible": false
+            },
+            {
+                "id": "00015",
+                "question": "What is the Port of Discharge?",
+                "answers": [
+                    {
+                        "text": "BANGKOK CES",
+                        "answer_start": 858
+                    }
+                ],
+                "is_impossible": false
+            },
+            {
+                "id": "00016",
+                "question": "What is the Part of Dry Container STC?",
+                "answers": [
+                    {
+                        "text": "",
+                        "answer_start": 0
+                    }
+                ],
+                "is_impossible": false
+            }
+        ]
+    },
+    {
+        "context": "Consignor/Shipper: VT. SHIPPING CO., LTD 500A1 TRAN HUNG DAO STREET, PHU MY WARD, DISTRICT 7, HO CHI MINH CITY, VIETNAM TEL: (84)- 28-7206.1234 FAX: (84)- 28-7206.1234 Forwarders Ref. Customs Reference/Status Shippers Reference Bill of Lading No. HCMBKK045672023 Consigned to Order of: VTS. LOGISTICS CO., LTD 89/7 SOI CHALONGKRUNG, CHALONGKRUNG ROAD, KWANG LAT KRABANG, KHET LAT KRABANG, BANGKOK 10520, THAILAND Notify party: SAME AS CONSIGNEE SMART SHIPPING HCM CO., LTD Country: Vietnam Port: HOCHIMINH Tel: +84 2871091010 Fax: +84 2871091010 Email: contact@smartshipping.vn Booking Reference BKK04567 Addr: ROOM 7.45, 7th FLOOR, TOWER A, CENTRAL BUILDING, NO 201-205 TRAN HUNG DAO ST, WARD 8, DISTRICT 1, HCM CITY, VIETNAM Place of Receipt HOCHIMINH CFS Vessel ASIA STAR V.050N Place of Loading HOCHIMINH CFS Port of Discharge BANGKOK CES Place of Delivery BANGKOK CFS BILL OF LADING Contents, weight, value, and measurement according to sender’s declaration Number and Kind of Packages, Description of Goods Gross Weight CBM/ Volume PART OF DRY CONTAINER STC 20.500 kgs 1.200 CBM LCL/LCL SHIPPING MARKS: OPTICARE CO., LTD FREIGHT PREPAID 1/3-3/3 INVOICE NO.: OC-HCM-004 CONTAINER & SEAL NO: GLDU2093784/22458947 (Original B/L Surrendered In HOCHIMINH CITY) According to declaration of the consignor. The goods and instructions are accepted and dealt with subject to the Company's Standard Conditions. Taken in charge in apparent good order and condition, unless otherwise noted herein, at the place of receipt for transport and delivery as mentioned above. Freight Amount Freight Payable At DESTINATION Place and Date of Issue HO CHI MINH, 15 MAR, 2023 Cargo Insurance through the undersigned Not covered: Yes/No Covered according to attached policy: Yes/No No. of Original B/Lading ONE For delivery of goods please apply to: SMART SHIPPING (THAILAND) LTD. 1921/30 PHRARAM ROAD, BANGKAPI, HUAYKWANG, BANGKOK 10310, THAILAND TEL: (662) 6909299, FAX: (662) 6909288-89",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "Who is the Shipper?",
+                "answers": [
+                    {
+                        "text": "VT. SHIPPING CO., LTD 500A1 TRAN HUNG DAO STREET, PHU MY WARD, DISTRICT 7, HO CHI MINH CITY, VIETNAM",
+                        "answer_start": 19
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "Who is the Consignee?",
+                "answers": [
+                    {
+                        "text": "VTS. LOGISTICS CO., LTD 89/7 SOI CHALONGKRUNG, CHALONGKRUNG ROAD, KWANG LAT KRABANG, KHET LAT KRABANG, BANGKOK 10520, THAILAND",
+                        "answer_start": 159
+                    }
+                ]
+            },
+            {
+                "id": "00003",
+                "is_impossible": false,
+                "question": "Who is the Notify Party?",
+                "answers": [
+                    {
+                        "text": "SAME AS CONSIGNEE",
+                        "answer_start": 306
+                    }
+                ]
+            },
+            {
+                "id": "00004",
+                "is_impossible": false,
+                "question": "What is the Gross Weight of the shipment?",
+                "answers": [
+                    {
+                        "text": "20.500 kgs",
+                        "answer_start": 768
+                    }
+                ]
+            },
+            {
+                "id": "00005",
+                "is_impossible": false,
+                "question": "What is the unit of Gross Weight?",
+                "answers": [
+                    {
+                        "text": "kgs",
+                        "answer_start": 775
+                    }
+                ]
+            },
+            {
+                "id": "00006",
+                "is_impossible": false,
+                "question": "What is the Port of Loading?",
+                "answers": [
+                    {
+                        "text": "HOCHIMINH CFS",
+                        "answer_start": 642
+                    }
+                ]
+            },
+            {
+                "id": "00007",
+                "is_impossible": false,
+                "question": "What is the Place of Delivery?",
+                "answers": [
+                    {
+                        "text": "BANGKOK CFS",
+                        "answer_start": 734
+                    }
+                ]
+            },
+            {
+                "id": "00008",
+                "is_impossible": false,
+                "question": "What is the dimension or tonnage?",
+                "answers": [
+                    {
+                        "text": "1.200 CBM",
+                        "answer_start": 780
+                    }
+                ]
+            },
+            {
+                "id": "00009",
+                "is_impossible": false,
+                "question": "What is the Bill of Lading Number?",
+                "answers": [
+                    {
+                        "text": "HCMBKK045672023",
+                        "answer_start": 278
+                    }
+                ]
+            },
+            {
+                "id": "00010",
+                "is_impossible": false,
+                "question": "What is the Place and Date of Issue?",
+                "answers": [
+                    {
+                        "text": "HO CHI MINH, 15 MAR, 2023",
+                        "answer_start": 1083
+                    }
+                ]
+            },
+            {
+                "id": "00011",
+                "is_impossible": false,
+                "question": "What is the Container Number?",
+                "answers": [
+                    {
+                        "text": "GLDU2093784",
+                        "answer_start": 844
+                    }
+                ]
+            },
+            {
+                "id": "00012",
+                "is_impossible": false,
+                "question": "What is the Seal Number?",
+                "answers": [
+                    {
+                        "text": "22458947",
+                        "answer_start": 856
+                    }
+                ]
+            },
+            {
+                "id": "00013",
+                "is_impossible": false,
+                "question": "What is the Number of Packages?",
+                "answers": [
+                    {
+                        "text": "",
+                        "answer_start": 0
+                    }
+                ]
+            },
+            {
+                "id": "00014",
+                "is_impossible": false,
+                "question": "What is the Kind of Packages?",
+                "answers": [
+                    {
+                        "text": "PART OF DRY CONTAINER STC",
+                        "answer_start": 767
+                    }
+                ]
+            },
+            {
+                "id": "00015",
+                "is_impossible": false,
+                "question": "What is the Port of Discharge?",
+                "answers": [
+                    {
+                        "text": "BANGKOK CES",
+                        "answer_start": 619
+                    }
+                ]
+            },
+            {
+                "id": "00016",
+                "is_impossible": false,
+                "question": "What is the Part of Dry Container STC?",
+                "answers": [
+                    {
+                        "text": "",
+                        "answer_start": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Consignor/Shipper: GLOBAL LOGISTICS CO., LTD 45 NGUYEN HUE STREET, BEN NGHE WARD, DISTRICT 1, HO CHI MINH CITY, VIETNAM TEL: (84)- 28-7305.5678 FAX: (84)- 28-7305.5678 Forwarders Ref. Customs Reference/Status Shippers Reference Bill of Lading No. HCMBKK067892023 Consigned to Order of: INTER TRANS CO., LTD 15/5 SOI SUKHUMVIT 62, KWANG BANGJAK, KHET PRAVET, BANGKOK 10260, THAILAND Notify party: SAME AS CONSIGNEE ACE SHIPPING CO., LTD Country: Vietnam Port: HOCHIMINH Tel: +84 2871088080 Fax: +84 2871088080 Email: info@aceshipping.vn Booking Reference BKK06789 Addr: ROOM 8.11, 8th FLOOR, TOWER C, SUN BUILDING, NO 300-302 LE LOI ST, WARD 7, DISTRICT 3, HCM CITY, VIETNAM Place of Receipt HOCHIMINH CFS Vessel PACIFIC WIND V.075N Place of Loading HOCHIMINH CFS Port of Discharge BANGKOK CES Place of Delivery BANGKOK CFS BILL OF LADING Contents, weight, value, and measurement according to sender’s declaration Number and Kind of Packages, Description of Goods Gross Weight CBM/ Volume PART OF DRY CONTAINER STC 21.300 kgs 1.500 CBM LCL/LCL SHIPPING MARKS: VIET THAI CO., LTD FREIGHT COLLECT 1/4-4/4 INVOICE NO.: VT-HCM-009 CONTAINER & SEAL NO: MSKU2583957/31245896 (Original B/L Surrendered In HOCHIMINH CITY) According to declaration of the consignor. The goods and instructions are accepted and dealt with subject to the Company's Standard Conditions. Taken in charge in apparent good order and condition, unless otherwise noted herein, at the place of receipt for transport and delivery as mentioned above. Freight Amount Freight Payable At ORIGIN Place and Date of Issue HO CHI MINH, 20 MAY, 2023 Cargo Insurance through the undersigned Not covered: Yes/No Covered according to attached policy: Yes/No No. of Original B/Lading TWO For delivery of goods please apply to: ACE SHIPPING (THAILAND) LTD. 1603/20 PETCHBURI ROAD, RATCHATHEWI, BANGKOK 10400, THAILAND TEL: (662) 7551234, FAX: (662) 7551235-36",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "Who is the Shipper?",
+                "answers": [
+                    {
+                        "text": "GLOBAL LOGISTICS CO., LTD 45 NGUYEN HUE STREET, BEN NGHE WARD, DISTRICT 1, HO CHI MINH CITY, VIETNAM",
+                        "answer_start": 19
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "Who is the Consignee?",
+                "answers": [
+                    {
+                        "text": "INTER TRANS CO., LTD 15/5 SOI SUKHUMVIT 62, KWANG BANGJAK, KHET PRAVET, BANGKOK 10260, THAILAND",
+                        "answer_start": 181
+                    }
+                ]
+            },
+            {
+                "id": "00003",
+                "is_impossible": false,
+                "question": "Who is the Notify Party?",
+                "answers": [
+                    {
+                        "text": "SAME AS CONSIGNEE",
+                        "answer_start": 329
+                    }
+                ]
+            },
+            {
+                "id": "00004",
+                "is_impossible": false,
+                "question": "What is the Gross Weight of the shipment?",
+                "answers": [
+                    {
+                        "text": "21.300 kgs",
+                        "answer_start": 817
+                    }
+                ]
+            },
+            {
+                "id": "00005",
+                "is_impossible": false,
+                "question": "What is the unit of Gross Weight?",
+                "answers": [
+                    {
+                        "text": "kgs",
+                        "answer_start": 825
+                    }
+                ]
+            },
+            {
+                "id": "00006",
+                "is_impossible": false,
+                "question": "What is the Port of Loading?",
+                "answers": [
+                    {
+                        "text": "HOCHIMINH CFS",
+                        "answer_start": 605
+                    }
+                ]
+            },
+            {
+                "id": "00007",
+                "is_impossible": false,
+                "question": "What is the Place of Delivery?",
+                "answers": [
+                    {
+                        "text": "BANGKOK CFS",
+                        "answer_start": 697
+                    }
+                ]
+            },
+            {
+                "id": "00008",
+                "is_impossible": false,
+                "question": "What is the dimension or tonnage?",
+                "answers": [
+                    {
+                        "text": "1.500 CBM",
+                        "answer_start": 834
+                    }
+                ]
+            },
+            {
+                "id": "00009",
+                "is_impossible": false,
+                "question": "What is the Bill of Lading Number?",
+                "answers": [
+                    {
+                        "text": "HCMBKK067892023",
+                        "answer_start": 171
+                    }
+                ]
+            },
+            {
+                "id": "00010",
+                "is_impossible": false,
+                "question": "What is the Place and Date of Issue?",
+                "answers": [
+                    {
+                        "text": "HO CHI MINH, 20 MAY, 2023",
+                        "answer_start": 1157
+                    }
+                ]
+            },
+            {
+                "id": "00011",
+                "is_impossible": false,
+                "question": "What is the Container Number?",
+                "answers": [
+                    {
+                        "text": "MSKU2583957",
+                        "answer_start": 893
+                    }
+                ]
+            },
+            {
+                "id": "00012",
+                "is_impossible": false,
+                "question": "What is the Seal Number?",
+                "answers": [
+                    {
+                        "text": "31245896",
+                        "answer_start": 905
+                    }
+                ]
+            },
+            {
+                "id": "00013",
+                "is_impossible": false,
+                "question": "What is the Number of Packages?",
+                "answers": [
+                    {
+                        "text": "",
+                        "answer_start": 0
+                    }
+                ]
+            },
+            {
+                "id": "00014",
+                "is_impossible": false,
+                "question": "What is the Kind of Packages?",
+                "answers": [
+                    {
+                        "text": "PART OF DRY CONTAINER STC",
+                        "answer_start": 806
+                    }
+                ]
+            },
+            {
+                "id": "00015",
+                "is_impossible": false,
+                "question": "What is the Port of Discharge?",
+                "answers": [
+                    {
+                        "text": "BANGKOK CES",
+                        "answer_start": 582
+                    }
+                ]
+            },
+            {
+                "id": "00016",
+                "is_impossible": false,
+                "question": "What is the Part of Dry Container STC?",
+                "answers": [
+                    {
+                        "text": "",
+                        "answer_start": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

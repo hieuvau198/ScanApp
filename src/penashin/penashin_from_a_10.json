@@ -1,0 +1,185 @@
+{
+    "data": [
+        {
+            "context": "Consignor/Shipper: HIKARI SHIPPING CO., LTD 789 D1 PHAM NGOC THACH STREET, DA KAO WARD, DISTRICT 1, HO CHI MINH CITY, VIETNAM. TEL: (84)- 28-3456.7890 FAX: (84)- 28-3456.7891 Forwarders Ref. Customs Reference/Status Shippers Reference Bill of Lading No. HCMNYC345672023 Consigned to Order of: XYZ INTERNATIONAL LOGISTICS CO., LTD 123 QUEENS STREET, NEW YORK, NY 10001, UNITED STATES OF AMERICA Notify party: SAME AS CONSIGNEE GLOBAL SHIPPING USA CO., LTD Country: USA Port: NEW YORK Tel: +1 212-555-9876 Fax: +1 212-555-9877 Email: logistics@globalshippingusa.com Booking Reference NYC34567 Addr: 210 BROADWAY, 7TH FLOOR, MANHATTAN, NEW YORK, NY 10007, UNITED STATES Place of Receipt HOCHIMINH CFS Vessel OCEAN EXPRESS V.210 Place of Loading HOCHIMINH CFS Port of Discharge NEW YORK PORT Place of Delivery NEW YORK CFS BILL OF LADING Contents, weight, value, and measurement according to sender\u00e2\u20ac\u2122s declaration Number and Kind of Packages, Description of Goods Gross Weight CBM/ Volume PART OF DRY CONTAINER STC 30.500 kgs 1.800 CBM LCL/LCL SHIPPING MARKS: HIKARI EXPORTS FREIGHT PREPAID 1/2-2/2 INVOICE NO.: HIK-NST-045 CONTAINER & SEAL NO: CSLU2098765/22457890 (Original B/L Surrendered In HOCHIMINH CITY) According to declaration of the consignor. The goods and instructions are accepted and dealt with subject to the Company's Standard Conditions. Taken in charge in apparent good order and condition, unless otherwise noted herein, at the place of receipt for transport and delivery as mentioned above. Freight Amount Freight Payable At DESTINATION Place and Date of Issue HO CHI MINH, 20 APR, 2023 Cargo Insurance through the undersigned Not covered: Yes/No Covered according to attached policy: Yes/No No. of Original B/Lading ZERO For delivery of goods please apply to: GLOBAL SHIPPING USA CO., LTD 55 WALL STREET, 22ND FLOOR, NEW YORK, NY 10005, USA TEL: (212) 555-1234, FAX: (212) 555-5678",
+            "qas": [
+                {
+                    "id": "00001",
+                    "question": "Who is the Shipper?",
+                    "answers": [
+                        {
+                            "text": "HIKARI SHIPPING CO., LTD 789 D1 PHAM NGOC THACH STREET, DA KAO WARD, DISTRICT 1, HO CHI MINH CITY, VIETNAM.",
+                            "answer_start": 19
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00002",
+                    "question": "Who is the Consignee?",
+                    "answers": [
+                        {
+                            "text": "XYZ INTERNATIONAL LOGISTICS CO., LTD 123 QUEENS STREET, NEW YORK, NY 10001, UNITED STATES OF AMERICA",
+                            "answer_start": 293
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00003",
+                    "question": "Who is the Notify Party?",
+                    "answers": [
+                        {
+                            "text": "SAME AS CONSIGNEE",
+                            "answer_start": 408
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00004",
+                    "question": "What is the Gross Weight of the shipment?",
+                    "answers": [
+                        {
+                            "text": "30.500",
+                            "answer_start": 1012
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00005",
+                    "question": "What is the unit of Gross Weight?",
+                    "answers": [
+                        {
+                            "text": "kgs",
+                            "answer_start": 1019
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00006",
+                    "question": "What is the Port of Lading?",
+                    "answers": [
+                        {
+                            "text": "",
+                            "answer_start": 0
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00007",
+                    "question": "What is the Place of Delivery?",
+                    "answers": [
+                        {
+                            "text": "NEW YORK CFS",
+                            "answer_start": 806
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00008",
+                    "question": "What is the dimension or tonnage?",
+                    "answers": [
+                        {
+                            "text": "1.800 CBM",
+                            "answer_start": 1023
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00009",
+                    "question": "What is the Bill of Lading Number?",
+                    "answers": [
+                        {
+                            "text": "HCMNYC345672023",
+                            "answer_start": 254
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00010",
+                    "question": "What is the Place and Date of Issue?",
+                    "answers": [
+                        {
+                            "text": "HO CHI MINH, 20 APR, 2023",
+                            "answer_start": 1578
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00011",
+                    "question": "What is the Container Number?",
+                    "answers": [
+                        {
+                            "text": "CSLU2098765",
+                            "answer_start": 1142
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00012",
+                    "question": "What is the Seal Number?",
+                    "answers": [
+                        {
+                            "text": "22457890",
+                            "answer_start": "1154"
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00013",
+                    "question": "What is the Number of Packages?",
+                    "answers": [
+                        {
+                            "text": "",
+                            "answer_start": 0
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00014",
+                    "question": "What is the Kind of Packages?",
+                    "answers": [
+                        {
+                            "text": "PART OF DRY CONTAINER STC",
+                            "answer_start": 986
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00015",
+                    "question": "What is the Port of Discharge?",
+                    "answers": [
+                        {
+                            "text": "NEW YORK PORT",
+                            "answer_start": 774
+                        }
+                    ],
+                    "is_impossible": false
+                },
+                {
+                    "id": "00016",
+                    "question": "What is the Part of Dry Container STC?",
+                    "answers": [
+                        {
+                            "text": "",
+                            "answer_start": 0
+                        }
+                    ],
+                    "is_impossible": false
+                }
+            ]
+        }
+    ]
+}

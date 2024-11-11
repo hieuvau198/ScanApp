@@ -1,0 +1,185 @@
+{
+    "eval_data": [
+        {
+            "context": "Consignor/Shipper: GLOBAL LOGISTICS CO., LTD 45 NGUYEN HUE STREET, BEN NGHE WARD, DISTRICT 1, HO CHI MINH CITY, VIETNAM TEL: (84)- 28-7305.5678 FAX: (84)- 28-7305.5678 Forwarders Ref. Customs Reference/Status Shippers Reference Bill of Lading No. HCMBKK067892023 Consigned to Order of: INTER TRANS CO., LTD 15/5 SOI SUKHUMVIT 62, KWANG BANGJAK, KHET PRAVET, BANGKOK 10260, THAILAND Notify party: SAME AS CONSIGNEE ACE SHIPPING CO., LTD Country: Vietnam Port: HOCHIMINH Tel: +84 2871088080 Fax: +84 2871088080 Email: info@aceshipping.vn Booking Reference BKK06789 Addr: ROOM 8.11, 8th FLOOR, TOWER C, SUN BUILDING, NO 300-302 LE LOI ST, WARD 7, DISTRICT 3, HCM CITY, VIETNAM Place of Receipt HOCHIMINH CFS Vessel PACIFIC WIND V.075N Place of Loading HOCHIMINH CFS Port of Discharge BANGKOK CES Place of Delivery BANGKOK CFS BILL OF LADING Contents, weight, value, and measurement according to sender’s declaration Number and Kind of Packages, Description of Goods Gross Weight CBM/ Volume PART OF DRY CONTAINER STC 21.300 kgs 1.500 CBM LCL/LCL SHIPPING MARKS: VIET THAI CO., LTD FREIGHT COLLECT 1/4-4/4 INVOICE NO.: VT-HCM-009 CONTAINER & SEAL NO: MSKU2583957/31245896 (Original B/L Surrendered In HOCHIMINH CITY) According to declaration of the consignor. The goods and instructions are accepted and dealt with subject to the Company's Standard Conditions. Taken in charge in apparent good order and condition, unless otherwise noted herein, at the place of receipt for transport and delivery as mentioned above. Freight Amount Freight Payable At ORIGIN Place and Date of Issue HO CHI MINH, 20 MAY, 2023 Cargo Insurance through the undersigned Not covered: Yes/No Covered according to attached policy: Yes/No No. of Original B/Lading TWO For delivery of goods please apply to: ACE SHIPPING (THAILAND) LTD. 1603/20 PETCHBURI ROAD, RATCHATHEWI, BANGKOK 10400, THAILAND TEL: (662) 7551234, FAX: (662) 7551235-36",
+            "qas": [
+                {
+                    "id": "00001",
+                    "is_impossible": false,
+                    "question": "Who is the Shipper?",
+                    "answers": [
+                        {
+                            "text": "GLOBAL LOGISTICS CO., LTD 45 NGUYEN HUE STREET, BEN NGHE WARD, DISTRICT 1, HO CHI MINH CITY, VIETNAM",
+                            "answer_start": 19
+                        }
+                    ]
+                },
+                {
+                    "id": "00002",
+                    "is_impossible": false,
+                    "question": "Who is the Consignee?",
+                    "answers": [
+                        {
+                            "text": "INTER TRANS CO., LTD 15/5 SOI SUKHUMVIT 62, KWANG BANGJAK, KHET PRAVET, BANGKOK 10260, THAILAND",
+                            "answer_start": 181
+                        }
+                    ]
+                },
+                {
+                    "id": "00003",
+                    "is_impossible": false,
+                    "question": "Who is the Notify Party?",
+                    "answers": [
+                        {
+                            "text": "SAME AS CONSIGNEE",
+                            "answer_start": 329
+                        }
+                    ]
+                },
+                {
+                    "id": "00004",
+                    "is_impossible": false,
+                    "question": "What is the Gross Weight of the shipment?",
+                    "answers": [
+                        {
+                            "text": "21.300 kgs",
+                            "answer_start": 817
+                        }
+                    ]
+                },
+                {
+                    "id": "00005",
+                    "is_impossible": false,
+                    "question": "What is the unit of Gross Weight?",
+                    "answers": [
+                        {
+                            "text": "kgs",
+                            "answer_start": 825
+                        }
+                    ]
+                },
+                {
+                    "id": "00006",
+                    "is_impossible": false,
+                    "question": "What is the Port of Loading?",
+                    "answers": [
+                        {
+                            "text": "HOCHIMINH CFS",
+                            "answer_start": 605
+                        }
+                    ]
+                },
+                {
+                    "id": "00007",
+                    "is_impossible": false,
+                    "question": "What is the Place of Delivery?",
+                    "answers": [
+                        {
+                            "text": "BANGKOK CFS",
+                            "answer_start": 697
+                        }
+                    ]
+                },
+                {
+                    "id": "00008",
+                    "is_impossible": false,
+                    "question": "What is the dimension or tonnage?",
+                    "answers": [
+                        {
+                            "text": "1.500 CBM",
+                            "answer_start": 834
+                        }
+                    ]
+                },
+                {
+                    "id": "00009",
+                    "is_impossible": false,
+                    "question": "What is the Bill of Lading Number?",
+                    "answers": [
+                        {
+                            "text": "HCMBKK067892023",
+                            "answer_start": 171
+                        }
+                    ]
+                },
+                {
+                    "id": "00010",
+                    "is_impossible": false,
+                    "question": "What is the Place and Date of Issue?",
+                    "answers": [
+                        {
+                            "text": "HO CHI MINH, 20 MAY, 2023",
+                            "answer_start": 1157
+                        }
+                    ]
+                },
+                {
+                    "id": "00011",
+                    "is_impossible": false,
+                    "question": "What is the Container Number?",
+                    "answers": [
+                        {
+                            "text": "MSKU2583957",
+                            "answer_start": 893
+                        }
+                    ]
+                },
+                {
+                    "id": "00012",
+                    "is_impossible": false,
+                    "question": "What is the Seal Number?",
+                    "answers": [
+                        {
+                            "text": "31245896",
+                            "answer_start": 905
+                        }
+                    ]
+                },
+                {
+                    "id": "00013",
+                    "is_impossible": false,
+                    "question": "What is the Number of Packages?",
+                    "answers": [
+                        {
+                            "text": "",
+                            "answer_start": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "00014",
+                    "is_impossible": false,
+                    "question": "What is the Kind of Packages?",
+                    "answers": [
+                        {
+                            "text": "PART OF DRY CONTAINER STC",
+                            "answer_start": 806
+                        }
+                    ]
+                },
+                {
+                    "id": "00015",
+                    "is_impossible": false,
+                    "question": "What is the Port of Discharge?",
+                    "answers": [
+                        {
+                            "text": "BANGKOK CES",
+                            "answer_start": 582
+                        }
+                    ]
+                },
+                {
+                    "id": "00016",
+                    "is_impossible": false,
+                    "question": "What is the Part of Dry Container STC?",
+                    "answers": [
+                        {
+                            "text": "",
+                            "answer_start": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,185 @@
+{
+    "eval_data": [
+        {
+            "context": "Consignor/Shipper: PACIFIC SHIPPING CO., LTD 65 PHAN XICH LONG STREET, WARD 2, PHU NHUAN DISTRICT, HO CHI MINH CITY, VIETNAM TEL: (84)- 28-7364.7890 FAX: (84)- 28-7364.7890 Forwarders Ref. Customs Reference/Status Shippers Reference Bill of Lading No. HCMSIN123452023 Consigned to Order of: SEA LINK CO., LTD 15 SERANGOON NORTH AVENUE 5, SERANGOON, SINGAPORE 554360 Notify party: SAME AS CONSIGNEE GLOBE SHIPPING PTE LTD Country: Vietnam Port: HOCHIMINH Tel: +84 2871093030 Fax: +84 2871093030 Email: info@globeship.vn Booking Reference SIN12345 Addr: ROOM 10.21, 10th FLOOR, TOWER E, DIAMOND PLAZA, NO 34 LE DUAN BLVD, BEN NGHE WARD, DISTRICT 1, HCM CITY, VIETNAM Place of Receipt HOCHIMINH CFS Vessel SEA DRAGON V.051S Place of Loading HOCHIMINH CFS Port of Discharge SINGAPORE PORT Place of Delivery SINGAPORE WAREHOUSE BILL OF LADING Contents, weight, value, and measurement according to sender’s declaration Number and Kind of Packages, Description of Goods Gross Weight CBM/ Volume PART OF DRY CONTAINER STC 25.000 kgs 2.100 CBM LCL/LCL SHIPPING MARKS: ELECTRO GOODS CO., LTD FREIGHT COLLECT 1/3-3/3 INVOICE NO.: EG-HCM-012 CONTAINER & SEAL NO: CAXU3487950/45987621 (Original B/L Surrendered In HOCHIMINH CITY) According to declaration of the consignor. The goods and instructions are accepted and dealt with subject to the Company's Standard Conditions. Taken in charge in apparent good order and condition, unless otherwise noted herein, at the place of receipt for transport and delivery as mentioned above. Freight Amount Freight Payable At DESTINATION Place and Date of Issue HO CHI MINH, 18 OCT, 2023 Cargo Insurance through the undersigned Not covered: Yes/No Covered according to attached policy: Yes/No No. of Original B/Lading FOUR For delivery of goods please apply to: GLOBE SHIPPING PTE LTD 8 JURONG TOWN HALL ROAD, SINGAPORE 609434 TEL: (65) 6354 5678, FAX: (65) 6354 5679",
+            "qas": [
+                {
+                    "id": "00001",
+                    "is_impossible": false,
+                    "question": "Who is the Shipper?",
+                    "answers": [
+                        {
+                            "text": "PACIFIC SHIPPING CO., LTD 65 PHAN XICH LONG STREET, WARD 2, PHU NHUAN DISTRICT, HO CHI MINH CITY, VIETNAM",
+                            "answer_start": 19
+                        }
+                    ]
+                },
+                {
+                    "id": "00002",
+                    "is_impossible": false,
+                    "question": "Who is the Consignee?",
+                    "answers": [
+                        {
+                            "text": "SEA LINK CO., LTD 15 SERANGOON NORTH AVENUE 5, SERANGOON, SINGAPORE 554360",
+                            "answer_start": 160
+                        }
+                    ]
+                },
+                {
+                    "id": "00003",
+                    "is_impossible": false,
+                    "question": "Who is the Notify Party?",
+                    "answers": [
+                        {
+                            "text": "SAME AS CONSIGNEE",
+                            "answer_start": 272
+                        }
+                    ]
+                },
+                {
+                    "id": "00004",
+                    "is_impossible": false,
+                    "question": "What is the Gross Weight of the shipment?",
+                    "answers": [
+                        {
+                            "text": "25.000 kgs",
+                            "answer_start": 733
+                        }
+                    ]
+                },
+                {
+                    "id": "00005",
+                    "is_impossible": false,
+                    "question": "What is the unit of Gross Weight?",
+                    "answers": [
+                        {
+                            "text": "kgs",
+                            "answer_start": 741
+                        }
+                    ]
+                },
+                {
+                    "id": "00006",
+                    "is_impossible": false,
+                    "question": "What is the Port of Loading?",
+                    "answers": [
+                        {
+                            "text": "HOCHIMINH CFS",
+                            "answer_start": 615
+                        }
+                    ]
+                },
+                {
+                    "id": "00007",
+                    "is_impossible": false,
+                    "question": "What is the Place of Delivery?",
+                    "answers": [
+                        {
+                            "text": "SINGAPORE WAREHOUSE",
+                            "answer_start": 707
+                        }
+                    ]
+                },
+                {
+                    "id": "00008",
+                    "is_impossible": false,
+                    "question": "What is the dimension or tonnage?",
+                    "answers": [
+                        {
+                            "text": "2.100 CBM",
+                            "answer_start": 749
+                        }
+                    ]
+                },
+                {
+                    "id": "00009",
+                    "is_impossible": false,
+                    "question": "What is the Bill of Lading Number?",
+                    "answers": [
+                        {
+                            "text": "HCMSIN123452023",
+                            "answer_start": 276
+                        }
+                    ]
+                },
+                {
+                    "id": "00010",
+                    "is_impossible": false,
+                    "question": "What is the Place and Date of Issue?",
+                    "answers": [
+                        {
+                            "text": "HO CHI MINH, 18 OCT, 2023",
+                            "answer_start": 1051
+                        }
+                    ]
+                },
+                {
+                    "id": "00011",
+                    "is_impossible": false,
+                    "question": "What is the Container Number?",
+                    "answers": [
+                        {
+                            "text": "CAXU3487950",
+                            "answer_start": 817
+                        }
+                    ]
+                },
+                {
+                    "id": "00012",
+                    "is_impossible": false,
+                    "question": "What is the Seal Number?",
+                    "answers": [
+                        {
+                            "text": "45987621",
+                            "answer_start": 829
+                        }
+                    ]
+                },
+                {
+                    "id": "00013",
+                    "is_impossible": false,
+                    "question": "What is the Number of Packages?",
+                    "answers": [
+                        {
+                            "text": "",
+                            "answer_start": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "00014",
+                    "is_impossible": false,
+                    "question": "What is the Kind of Packages?",
+                    "answers": [
+                        {
+                            "text": "PART OF DRY CONTAINER STC",
+                            "answer_start": 732
+                        }
+                    ]
+                },
+                {
+                    "id": "00015",
+                    "is_impossible": false,
+                    "question": "What is the Port of Discharge?",
+                    "answers": [
+                        {
+                            "text": "SINGAPORE PORT",
+                            "answer_start": 663
+                        }
+                    ]
+                },
+                {
+                    "id": "00016",
+                    "is_impossible": false,
+                    "question": "What is the Part of Dry Container STC?",
+                    "answers": [
+                        {
+                            "text": "",
+                            "answer_start": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
